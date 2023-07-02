@@ -8,6 +8,7 @@ def upload_to(instance, filename):
 
 class Property(models.Model):
     name = models.CharField(max_length=40)
-    description_text = models.CharField()
+    location = models.CharField(max_length=45, blank=True)
+    description_text = models.TextField()
     thumbnail = models.ImageField(upload_to=upload_to, blank=True)
     youtube_link = models.CharField(max_length=200, blank = True)
