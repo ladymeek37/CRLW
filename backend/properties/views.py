@@ -15,12 +15,22 @@ def get_all_properties(request):
     serializer = PropertySerializer(properties, many=True)
     return Response(serializer.data)
 
+#Public route to get properties by id (Specific property page)
 @api_view(['GET'])
 @permission_classes([AllowAny])
 def get_property_by_id(request, property_id):
     property = Property.objects.filter(id = property_id)
     serializer = PropertySerializer(property, many = True)
     return Response(serializer.data)
+
+@api_view(['POST'])
+@permission_classes([IsAuthenticated])
+def post_property(request):
+    serializer = PropertySerializer(data = request.data)
+    if serializer.is_valid():
+        serializer.save(user = request.user)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 
