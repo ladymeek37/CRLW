@@ -5,6 +5,7 @@ from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.decorators import api_view, permission_classes
 from .models import Property
 from .serializers import PropertySerializer
+from django.shortcuts import get_object_or_404
 # Create your views here.
 
 # Private route to get all properties (All properties page)
@@ -32,6 +33,17 @@ def post_property(request):
         return Response(serializer.data, status=status.HTTP_201_CREATED)
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-
+@api_view(['PUT', 'DELETE'])
+@permission_classes([IsAuthenticated])
+def property_detail(request, pk):
+    property = get_object_or_404(Property, pk=pk)
+    if request.method == 'PUT':
+        serializer = PropertySerializer(property, data = request.data, partial=True)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+    elif request.method == 'DELETE':
+        property.delete()
+        return Response(status = status.HTTP_204_NO_CONTENT)
 
 
