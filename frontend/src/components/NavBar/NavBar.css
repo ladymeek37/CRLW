@@ -9,11 +9,21 @@ li {
 }
 
 .navBar {
-  background: steelblue;
   box-shadow: 4px 2px 5px gray;
   color: white;
   margin-bottom: 2rem;
   padding: 1.5rem 2rem;
+  background-image: url("/Users/ladymeek/Desktop/crlwrepo/assets/IMG_9006.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px; 
+}
+
+.title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
+  font-size: 41px;
 }
 
 .navBar button {
@@ -21,11 +31,13 @@ li {
   border: 2px solid white;
   color: white;
   padding: 0.4rem 0.5rem;
+  margin-top: 100px;
+  margin-right: 32px;
 }
 
 .navBar button:hover {
   background: white;
-  color: steelblue;
+  color: rgb(87, 149, 212);
   cursor: pointer;
 }
 
