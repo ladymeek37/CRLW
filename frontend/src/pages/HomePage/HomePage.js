@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import useAuth from "../../hooks/useAuth";
+import { useNavigate} from "react-router-dom";
 
 import axios from "axios";
 
@@ -11,6 +12,7 @@ const HomePage = () => {
 
   const [user, token] = useAuth();  
   const [properties, setProperties] = useState([]);   
+  const navigate = useNavigate();
 
 
 
@@ -35,6 +37,7 @@ const HomePage = () => {
 
   return (
     <div className="container">
+      <button onClick={() => navigate("/la_onda")}>La Onda</button>
     {properties &&
       properties.map((property) => (
         <div key={property.id}>
