@@ -17,12 +17,13 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 200px; 
+  height: 220px; 
 }
 
 .title{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Malayalam MN;
   margin: 20px;
+  margin-bottom: 5px;
   font-size: 41px;
 }
 
@@ -33,6 +34,7 @@ li {
   padding: 0.4rem 0.5rem;
   margin-top: 100px;
   margin-right: 32px;
+  font-family: Malayalam MN;
 }
 
 .navBar button:hover {
