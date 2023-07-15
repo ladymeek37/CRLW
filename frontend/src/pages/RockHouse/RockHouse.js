@@ -1,5 +1,5 @@
-import "./../PropertyPage.css"
-import Rock_House from "./Rock_House.jpg"
+import "../PropertyPage.css"
+import Rock_House from "./Rock_House.JPG"
 const RockHousePage = () => {
     return (
         <div className = "ppcontainer">

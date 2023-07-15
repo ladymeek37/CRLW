@@ -6,7 +6,15 @@ import "./App.css";
 import HomePage from "./pages/HomePage/HomePage";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import RegisterPage from "./pages/RegisterPage/RegisterPage";
+import BuenosAiresPage from "./pages/BuenosAires/BuenosAires";
 import LaOndaPage from "./pages/LaOnda/LaOnda";
+import DomiFarmPage from "./pages/DomiFarm/DomiFarm";
+import HermosaLotPage from "./pages/HermosaLot/Hermosa_Lot";
+import RockHousePage from "./pages/RockHouse/RockHouse";
+import MonkeyRanchPage from "./pages/MonkeyRanch/Monkey_Ranch";
+
+
+
 
 // Component Imports
 import Navbar from "./components/NavBar/NavBar";
@@ -30,7 +38,13 @@ function App() {
         />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/la_onda" element={<LaOndaPage/>} />
+        <Route path="/property/9" element={<BuenosAiresPage/>} />
+        <Route path="/property/12" element={<LaOndaPage/>} />
+        <Route path="/property/10" element={<DomiFarmPage/>} />
+        <Route path="/property/11" element={<HermosaLotPage/>} />
+        <Route path="/property/13" element={<RockHousePage/>} />
+        <Route path="/property/14" element={<MonkeyRanchPage/>} />        
+        <Route path="/property/12" element={<LaOndaPage/>} />
       </Routes>
     </div>
   );

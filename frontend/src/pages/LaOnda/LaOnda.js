@@ -1,5 +1,5 @@
 import La_Onda from "./La_Onda.jpg"
-import "./../PropertyPage.css"
+import "../PropertyPage.css"
 
 const LaOndaPage = () => {
     return ( 

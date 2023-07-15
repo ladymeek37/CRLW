@@ -1,5 +1,5 @@
-import "./../PropertyPage.css"
 import Hermosa_Lot from "./Hermosa_Lot.jpg"
+import "../PropertyPage.css"
 const HermosaLotPage = () => {
     return ( 
         <div className = "ppcontainer">

@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import useAuth from "../../hooks/useAuth";
-import { useNavigate} from "react-router-dom";
+import { useNavigate, Link} from "react-router-dom";
 
 import axios from "axios";
 
@@ -35,19 +35,36 @@ const HomePage = () => {
 
  
 
-  return (
-    <div className="container">
-      <button onClick={() => navigate("/la_onda")}>La Onda</button>
-    {properties &&
-      properties.map((property) => (
-        <div key={property.id}>
-          <img src={`http://127.0.0.1:8000${property.thumbnail}`} alt={property.name} width="400" height="300" />          
-          <p>
+//   return (
+//     <div className="container">
+//     {properties &&
+//       properties.map((property) => (
+//         <div className = "ppchild" key={property.id}>
+//           <img src={`http://127.0.0.1:8000${property.thumbnail}`} alt={property.name} width="400" height="300" />
+//           <p>
+//             <a href={`/property/${property.id}`} key={property.id}>
+//             {property.name} {property.location}
+//             </a>
+//             </p>          
+
+//         </div>
+//       ))}
+//   </div>
+// );
+return (
+  <div className="container">
+  {properties &&
+    properties.map((property) => (
+      <Link to ={`/property/${property.id}`} style = {{ color: 'black', textDecoration: 'none' }}>
+        <div className = "ppchild" key={property.id}>
+          <img src={`http://127.0.0.1:8000${property.thumbnail}`} alt={property.name} width="400" height="300" />
+          <p className = "pptitles">
             {property.name} {property.location}
-          </p>
+          </p>          
         </div>
-      ))}
-  </div>
+      </Link>
+    ))}
+</div>
 );
 }
 

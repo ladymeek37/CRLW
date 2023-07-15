@@ -1,4 +1,4 @@
-import "./../PropertyPage.css"
+import "../PropertyPage.css"
 const SawmillsPage = () => {
     return ( 
         <div className = "ppcontainer">

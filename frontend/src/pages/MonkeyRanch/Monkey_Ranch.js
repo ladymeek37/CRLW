@@ -1,4 +1,4 @@
-import "./../PropertyPage.css"
+import "../PropertyPage.css"
 import Monkey_Ranch from "./Monkey_Ranch.jpg"
 
 const MonkeyRanchPage = () => {

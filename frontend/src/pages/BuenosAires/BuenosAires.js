@@ -1,5 +1,5 @@
 import Buenos_Aires from "./Buenos_Aires.JPG"
-import "./../PropertyPage.css"
+import "../PropertyPage.css"
 
 const BuenosAiresPage = () => {
     return ( 

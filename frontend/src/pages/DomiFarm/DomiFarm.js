@@ -1,4 +1,4 @@
-import "./../PropertyPage.css"
+import "../PropertyPage.css"
 import Domi_Farm from "./Domi_Farm.jpeg"
 const DomiFarmPage = () => {
     return ( 
