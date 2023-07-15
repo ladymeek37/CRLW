@@ -55,12 +55,11 @@ return (
   <div className="container">
   {properties &&
     properties.map((property) => (
-      <Link to ={`/property/${property.id}`} style = {{ color: 'black', textDecoration: 'none' }}>
+      <Link to ={property.name} style = {{ color: 'black', textDecoration: 'none' }}>
         <div className = "ppchild" key={property.id}>
           <img src={`http://127.0.0.1:8000${property.thumbnail}`} alt={property.name} width="400" height="300" />
-          <p className = "pptitles">
-            {property.name} {property.location}
-          </p>          
+          <p className = "pptitles">{property.description_text}</p>
+          <p className = "pptitles">{property.location}</p>          
         </div>
       </Link>
     ))}

@@ -38,13 +38,13 @@ function App() {
         />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/property/9" element={<BuenosAiresPage/>} />
-        <Route path="/property/12" element={<LaOndaPage/>} />
-        <Route path="/property/10" element={<DomiFarmPage/>} />
-        <Route path="/property/11" element={<HermosaLotPage/>} />
-        <Route path="/property/13" element={<RockHousePage/>} />
-        <Route path="/property/14" element={<MonkeyRanchPage/>} />        
-        <Route path="/property/12" element={<LaOndaPage/>} />
+        <Route path="/buenosaires" element={<BuenosAiresPage/>} />
+        <Route path="/laonda" element={<LaOndaPage/>} />
+        <Route path="/domifarm" element={<DomiFarmPage/>} />
+        <Route path="/hermosalot" element={<HermosaLotPage/>} />
+        <Route path="/rockhouse" element={<RockHousePage/>} />
+        <Route path="/monkeyranch" element={<MonkeyRanchPage/>} />        
+        <Route path="/laonda" element={<LaOndaPage/>} />
       </Routes>
     </div>
   );
