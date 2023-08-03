@@ -46,6 +46,16 @@ button:hover {
   text-align: center;
 }
 
+/* ----------- iPhone 12, 12 Pro ----------- */
+ 
+/* 2532x1170 pixels at 460ppi */ 
+@media only screen 
+and (device-width: 390px) 
+and (device-height: 844px) 
+and (-webkit-device-pixel-ratio: 3) { 
+
+}
+
 .form {
   align-items: center;
   display: flex;

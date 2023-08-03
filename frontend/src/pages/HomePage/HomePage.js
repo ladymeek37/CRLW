@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import useAuth from "../../hooks/useAuth";
 import { useNavigate, Link} from "react-router-dom";
-
+import "./HomePage.css"
 import axios from "axios";
 
 const HomePage = () => {
@@ -53,16 +53,16 @@ const HomePage = () => {
 // );
 return (
   <div className="container">
-  {properties &&
-    properties.map((property) => (
-      <Link to ={property.name} style = {{ color: 'black', textDecoration: 'none' }}>
-        <div className = "ppchild" key={property.id}>
-          <img src={`http://127.0.0.1:8000${property.thumbnail}`} alt={property.name} width="500" height="300" />
-          <p className = "pptitles">{property.description_text}</p>
-          <p className = "pptitles">{property.location}</p>          
-        </div>
-      </Link>
-    ))}
+      {properties &&
+        properties.map((property) => (
+          <Link to ={property.name} style = {{ color: 'black', textDecoration: 'none' }}>
+            <div className = "ppchild" key={property.id}>
+              <img src={`http://127.0.0.1:8000${property.thumbnail}`} alt={property.name} width="500" height="300" />
+              <p className = "pptitles">{property.description_text}</p>
+              <p className = "pptitles">{property.location}</p>          
+            </div>
+          </Link>
+        ))}        
 </div>
 );
 }

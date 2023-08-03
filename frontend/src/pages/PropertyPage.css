@@ -1,13 +1,23 @@
 .ppcontainer{
-margin: 0 auto;
-max-width: 80%;
-overflow: auto;
-text-align: center;    
+    margin: 0 auto;
+    max-width: 80%;
+    overflow: auto;
+    text-align: center;    
+}
+
+.videocontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.vcchild{
+    margin: 2rem;
+    margin-top: 2rem;
 }
 
 .ppchild{
-    margin-top: 7%;
-    margin-bottom: 7%;
+    margin:5rem
 }
 
 a {
@@ -19,7 +29,9 @@ a {
 }
 
 h1{
-    font-family: Kohinoor Telugu;
+    font-family: Malayalam MN;
+    font-size: 5rem;
+    color: grey;
 }
 
 h2{
@@ -27,6 +39,16 @@ h2{
     font-size: large;
 }
 
+h3{
+    font-family: Kohinoor Telugu;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);  
+}
+
 p{
     font-size: medium;
+}
+
+.imagechild{
+    margin: 1rem
 }
