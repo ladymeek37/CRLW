@@ -3,6 +3,7 @@ import "../PropertyPage.css"
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css"
 
+
 //Photo Imports:
 import BigTreeLO from "./BestofLaOnda/BigTreeLO.jpg"
 import FenceBarnLO from "./BestofLaOnda/FenceBarnLO.jpg"
@@ -31,12 +32,12 @@ const LaOndaPage = () => {
 
     const maps = [
         {
-            original: Map1,
-            thumbnail: Map1,
-        },
-        {
             original: Map2,
             thumbnail: Map2,
+        },
+        {
+            original: Map1,
+            thumbnail: Map1,
         },
         {
             original: Map3,
@@ -45,6 +46,10 @@ const LaOndaPage = () => {
     ]
 
     const images = [
+        {
+            original: BeachViewLO,
+            thumbnail: BeachViewLO, 
+        },
         {
           original: BigTreeLO,
           thumbnail: BigTreeLO,
@@ -60,10 +65,6 @@ const LaOndaPage = () => {
         {
             original: SawmillsViewLO,
             thumbnail: SawmillsViewLO,
-        },
-        {
-            original: BeachViewLO,
-            thumbnail: BeachViewLO, 
         },
         {
             original: SurfersWalkingPointLO,
@@ -103,13 +104,30 @@ const LaOndaPage = () => {
       ];
       
     return ( 
+        <html>
+        <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet" />
+        </head>
+        <body>
         <div className = "ppcontainer">
+
             <div className="ppchild">
-                <h1 >LA ONDA</h1>
-                <p> Located in Playa Pavones, Costa Rica</p>
+                <h1 class="decorated-title">La Onda</h1>
+                <p>Playa Pavones, Costa Rica</p>
+            </div>
+            <div className="ppchild">
+                <h2> Photo Gallery </h2>
+                {/* <h3 className="imagechild"> Image Gallery </h3> */}
+                <ImageGallery items={images}
+                showPlayButton = {false}
+                showFullscreenButton = {false}/> 
             </div>
             {/* <img className = "ppchild" src={La_Onda} width="900" height="700"/> */}
-            <div className = "videocontainer">
+        <h2>Video Gallery</h2>            
+            <div className = "videocontainer ppchild" >
+
                 <iframe className="vcchild"
                     src={`https://www.youtube.com/embed/q4qaDL_m-AY`}
                     frameborder="0" allowFullScreen
@@ -126,29 +144,29 @@ const LaOndaPage = () => {
                     width="600" height="350">
                 </iframe>                
             </div>
-
+            <div>
+                <h2> About La Onda </h2>
             <div className="ppchild">
-                <h2>About Playa Pavones:</h2>
+                <h3>Playa Pavones:</h3>
                 <p>Playa Pavones is home to one of the longest left-hand point breaks in the world. People travel from all over the world to get to surf this legendary wave. With a good swell, you can expect up to a mile long ride on a single wave. This quaint surf town has a few local restaurants featuring typical style meals and other cuisine, a soccerfield, a surfshop, a variety of rental cabinas and houses, and more. This southern area of Costa Rica is known for it's beautiful nature, beaches and wildlife. Scarelt macaws, howler monkeys, toucans, iguanas, wild horses and sloths are easily seen daily in this zone, just to name a few. Pavones is also known for it's year round fishing oppourtunites. This town is a naturally beautiful paradise.   </p>                
             </div>
             <div className="ppchild">
-                <h2>About the La Onda Property:</h2>
+                <h3>The Property:</h3>
                 <p>The property is 84 acres made up of rolling pasture fields with several ocean view ridgelines. A beautiful river runs through the property, with the river mouth entering the ocean on the south border of the property. The property runs along both sides of the main road into Pavones and is filled with many building sites of different sizes, all overlooking the ocean. You can find exciting hiking trails, swimming holes, wildlife, and beautiful views overlooking Pavones, Matapalo and Playa Zancudo. Along the beach is the La Onda surf break, a fun left-hand point break… one of the many surf spots in the area. La Onda is a one of a kind property with so much to offer!</p>                
-            </div>
-
+            </div>                
+            </div>                
+ 
+                <h2>  Surverys & Maps  </h2>            
             <div className="ppchild">
-                <h3 className="imagechild"> Image Gallery </h3>
-                <ImageGallery items={images}
-                showPlayButton = {false}
-                showFullscreenButton = {false}/> 
-            </div>
-            <div className="ppchild">
-                <h3 className="imagechild"> Property Maps </h3>
                 <ImageGallery items={maps}
                 showPlayButton = {false}
-                showFullscreenButton = {false}/> 
+                showFullscreenButton = {false}
+                style={{ width: '200px', height: 'auto' }}/> 
             </div>
-        </div>
+            </div>
+        </body>
+        </html>
+
 
      );
 }

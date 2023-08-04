@@ -52,18 +52,33 @@ const HomePage = () => {
 //   </div>
 // );
 return (
-  <div className="container">
+  <html>
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+  <div className="hpcontainer">
       {properties &&
         properties.map((property) => (
+          <div className = "hpchild" > 
           <Link to ={property.name} style = {{ color: 'black', textDecoration: 'none' }}>
-            <div className = "ppchild" key={property.id}>
+            <div  key={property.id}>
               <img src={`http://127.0.0.1:8000${property.thumbnail}`} alt={property.name} width="500" height="300" />
-              <p className = "pptitles">{property.description_text}</p>
-              <p className = "pptitles">{property.location}</p>          
+              <div className="titlecontainer">
+                <p className = "hptitle titlechild">{property.description_text}</p>
+                <p className = "hplocation titlechild">{property.location}</p>                  
+              </div>
             </div>
           </Link>
-        ))}        
-</div>
+          </div>
+        ))}      
+</div>       
+    </body>
+   
+  </html>
+
 );
 }
 

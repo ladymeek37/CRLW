@@ -8,7 +8,7 @@
 .videocontainer{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
 .vcchild{
@@ -17,6 +17,7 @@
 }
 
 .ppchild{
+    margin-top: 30rem;
     margin:5rem
 }
 
@@ -29,20 +30,23 @@ a {
 }
 
 h1{
-    font-family: Malayalam MN;
-    font-size: 5rem;
-    color: grey;
+    font-family: 'Ms Madi', cursive;
+    font-size: 7rem;
+    color: black;
 }
 
 h2{
-    font-family: Kohinoor Telugu;
-    font-size: large;
+    font-family: 'Ms Madi', cursive;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
 }
 
 h3{
     font-family: Kohinoor Telugu;
-    font-size: 2rem;
-    color: rgb(0, 0, 0);  
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
 }
 
 p{
@@ -51,4 +55,52 @@ p{
 
 .imagechild{
     margin: 1rem
+}
+
+.decorated-title {
+    position: relative;
+}
+
+.aboutinfo{
+    margin-top: 2rem;
+}
+
+/* .decorated-title::before {
+    display: inline-block;
+    margin: 0 20px 23px 0;
+    height: .2rem;
+    content: " ";
+    text-shadow: none;
+    background-color:black;
+    width: 140px;
+}
+
+.decorated-title::after {
+    display: inline-block;
+    margin: 0 0 23px 20px;
+    height: 0.2rem;
+    content: " ";
+    text-shadow: none;
+    background-color: black;
+    width: 140px;
+} */
+
+h2::after {
+    display: inline-block;
+    margin: 0 20px 5px 9;
+    height: .1rem;
+    content: " ";
+    text-shadow: none;
+    background-color:black;
+    width: 26rem;
+}
+
+h2::before {
+    display: inline-block;
+    margin: 0 20px 5px 9;
+    height: .1rem;
+    content: " ";
+    text-shadow: none;
+    background-color:black;
+    width: 26rem;
 }

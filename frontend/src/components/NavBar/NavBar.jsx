@@ -8,11 +8,18 @@ const Navbar = () => {
   const { logoutUser, user } = useContext(AuthContext);
   const navigate = useNavigate();
   return (
+    <html>
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet" />
+    </head>
+    <body>
     <div className="navBar">
       <ul>
         <li className="brand">
           <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-            <p className="title">COSTA RICA </p><p className="title">LIVE WATER PROPERTIES</p>
+            <p className="title">Costa Rica </p><p className="title">Live Water Properties</p>
           </Link>
         </li>
         <li>
@@ -23,7 +30,10 @@ const Navbar = () => {
           )}
         </li>
       </ul>
-    </div>
+    </div>      
+    </body>
+    </html>
+
   );
 };
 

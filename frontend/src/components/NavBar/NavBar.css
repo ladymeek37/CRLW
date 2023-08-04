@@ -30,10 +30,8 @@ and (-webkit-device-pixel-ratio: 3) {
 }
 
 .title{
-  font-family: Malayalam MN;
-  margin: 20px;
-  margin-bottom: 5px;
-  font-size: 41px;
+  font-family: 'Ms Madi', cursive;
+  font-size: 4rem;
 }
 
 .navBar button {

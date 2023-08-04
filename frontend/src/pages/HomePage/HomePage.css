@@ -1,0 +1,36 @@
+.hptitle{
+    font-family: 'Ms Madi', cursive;
+    font-size: 3rem;
+    position: relative;
+    top: 1rem;
+    /* font-weight: bold; */
+}
+.hplocation{
+    font-size: 1rem;
+    position: relative;
+    top: 2.37rem;
+}
+
+.hpcontainer{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hpchild{
+    margin: 4rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    justify-content: center;
+    background-color: rgb(234, 241, 241);
+    padding: 2rem;
+}
+
+.titlecontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
