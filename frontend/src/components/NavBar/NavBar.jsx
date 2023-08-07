@@ -19,16 +19,16 @@ const Navbar = () => {
       <ul>
         <li className="brand">
           <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-            <p className="title">Costa Rica </p><p className="title">Live Water Properties</p>
+            <p className="title">Costa Rica </p><p className="title bottom">Live Water Properties</p>
           </Link>
         </li>
-        <li>
+        {/* <li>
           {user ? (
             <button onClick={logoutUser}>Log out</button>
           ) : (
             <button onClick={() => navigate("/login")}>Log in</button>
           )}
-        </li>
+        </li> */}
       </ul>
     </div>      
     </body>

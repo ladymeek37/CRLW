@@ -24,6 +24,9 @@ import Map1 from "./PropertyMaps/Map1.jpg"
 import Map2 from "./PropertyMaps/Map2.jpg"
 import Map3 from "./PropertyMaps/Map3.jpg"
 
+//Nav Button Imports
+import { CustomLeftNavButton, CustomRightNavButton } from '../../components/NavButtons'
+
 
 // image gallery package and info = https://www.npmjs.com/package/react-image-gallery
 // youtube tutorial = https://www.youtube.com/watch?v=AnG7LMcX_z8
@@ -117,31 +120,34 @@ const LaOndaPage = () => {
                 <h1 class="decorated-title">La Onda</h1>
                 <p>Playa Pavones, Costa Rica</p>
             </div>
+            <h2> Photo Gallery </h2>
             <div className="ppchild">
-                <h2> Photo Gallery </h2>
                 {/* <h3 className="imagechild"> Image Gallery </h3> */}
                 <ImageGallery items={images}
                 showPlayButton = {false}
-                showFullscreenButton = {false}/> 
+                showFullscreenButton = {true}/> 
             </div>
             {/* <img className = "ppchild" src={La_Onda} width="900" height="700"/> */}
-        <h2>Video Gallery</h2>            
+                <h2> Video Gallery </h2>            
             <div className = "videocontainer ppchild" >
 
                 <iframe className="vcchild"
                     src={`https://www.youtube.com/embed/q4qaDL_m-AY`}
                     frameborder="0" allowFullScreen
-                    width="600" height="350">
+                    width="600" height="350"
+                    >
                 </iframe>
                 <iframe className="vcchild"
                     src={`https://www.youtube.com/embed/s5iiFgPZ7LY`}
                     frameborder="0" allowFullScreen
-                    width="600" height="350">
+                    width="600" height="350"
+                    >
                 </iframe>
                 <iframe className="vcchild"
                     src={`https://www.youtube.com/embed/OWr-YSZ97-E`}
                     frameborder="0" allowFullScreen
-                    width="600" height="350">
+                    width="600" height="350"
+                    >
                 </iframe>                
             </div>
             <div>
@@ -159,8 +165,10 @@ const LaOndaPage = () => {
                 <h2>  Surverys & Maps  </h2>            
             <div className="ppchild">
                 <ImageGallery items={maps}
+                    //   renderLeftNav={(onClick, disabled) => <CustomLeftNavButton onClick={onClick} />}
+                    //   renderRightNav={(onClick, disabled) => <CustomRightNavButton onClick={onClick} />}
                 showPlayButton = {false}
-                showFullscreenButton = {false}
+                showFullscreenButton = {true}
                 style={{ width: '200px', height: 'auto' }}/> 
             </div>
             </div>
