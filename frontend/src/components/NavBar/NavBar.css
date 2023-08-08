@@ -1,4 +1,27 @@
+@media only screen 
+and (min-device-height: 350px) 
+and (max-device-width: 420px)  {
 
+  .navBar{
+    height: auto 
+  }
+  .navBar button{
+    position: relative;
+    right: -2rem;
+    border: 1px solid white !important;
+    font-size: x-small !important;
+}  
+  .title{
+    font-size: 1.8rem !important;
+ 
+    position: relative;
+    top: 5rem;
+  }
+  .bottom{
+    margin-bottom: 70px;
+  }
+
+}
 
 ul {
   display: flex;
@@ -19,32 +42,9 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 220px; 
+  height: auto; 
 }
 
-@media only screen 
-and (device-width: 390px) 
-and (device-height: 844px) 
-and (-webkit-device-pixel-ratio: 3) { 
-  .navBar{
-    height: auto 
-  }
-  .navBar button{
-    position: relative;
-    right: -2rem;
-    border: 1px solid white !important;
-    font-size: x-small !important;
-}  
-  .title{
-    font-size: 1.8rem !important;
- 
-    position: relative;
-    top: 5rem;
-  }
-  .bottom{
-    margin-bottom: 70px;
-  }
-}
 
 .title{
   font-family: 'Ms Madi', cursive;

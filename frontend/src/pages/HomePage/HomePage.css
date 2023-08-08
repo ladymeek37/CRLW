@@ -1,7 +1,8 @@
+
+/* iphone media queries */
 @media only screen 
-and (device-width: 390px) 
-and (device-height: 844px) 
-and (-webkit-device-pixel-ratio: 3) {
+and (min-device-height: 350px) 
+and (max-device-width: 420px) {
     .thumbnailimage{
         width: 16rem !important;
         height: 10rem !important;
@@ -27,7 +28,6 @@ and (-webkit-device-pixel-ratio: 3) {
     font-size: 3rem;
     position: relative;
     top: 1rem;
-    /* font-weight: bold; */
 }
 .hplocation{
     font-size: 1rem;

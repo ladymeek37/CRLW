@@ -167,7 +167,7 @@ const LaOndaPage = () => {
         <body>
         <div className = "ppcontainer">
 
-            <div className="ppchild">
+            <div className="ppchild propertynameandloc">
                 <h1 class="decorated-title">La Onda</h1>
                 <p>Playa Pavones, Costa Rica</p>
             </div>

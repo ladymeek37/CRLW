@@ -1,7 +1,8 @@
+
+/* Iphone media queries */
 @media only screen 
-and (device-width: 390px) 
-and (device-height: 844px) 
-and (-webkit-device-pixel-ratio: 3) {
+and (min-device-height: 350px) 
+and (max-device-width: 420px)  {
 
     h1{
         font-size: 3rem !important;
@@ -17,6 +18,60 @@ and (-webkit-device-pixel-ratio: 3) {
 }
 
 
+@media only screen 
+and (device-width: 844px) 
+and (device-height: 390px) 
+and (-webkit-device-pixel-ratio: 3) {
+
+    h2::after {
+        width: 10rem !important;
+    }
+    
+    h2::before {
+        width: 10rem !important;
+    }
+
+}
+
+/* ipad media queries */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 900px) 
+and (orientation: landscape) {
+
+   
+   h2{
+    font-size: 2rem !important;
+   }
+   h1{
+    font-size: 4rem !important;
+   }
+    h2::after {
+        width: 10rem !important;
+    }
+    
+    h2::before {
+        width: 10rem !important;
+    }
+
+}
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 834px) and (orientation: portrait) {
+
+    h2::after {
+        width: 10rem !important;
+    }
+    
+    h2::before {
+        width: 10rem !important;
+    }
+
+    
+}
+
+
 .ppcontainer{
     margin: 0 auto;
     max-width: 80%;
@@ -28,7 +83,7 @@ and (-webkit-device-pixel-ratio: 3) {
 .videocontainer{
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
 }
 .vcchild{
@@ -78,6 +133,10 @@ p{
 
 .decorated-title {
     position: relative;
+}
+
+.propertynameandloc{
+    padding: 4rem;
 }
 
 .aboutinfo{
