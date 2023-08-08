@@ -65,7 +65,7 @@ return (
           <div className = "hpchild" > 
           <Link to ={property.name} style = {{ color: 'black', textDecoration: 'none' }}>
             <div  key={property.id}>
-              <img src={`http://127.0.0.1:8000${property.thumbnail}`} alt={property.name} width="500" height="300" />
+              <img className = "thumbnailimage" src={`http://127.0.0.1:8000${property.thumbnail}`} alt={property.name} />
               <div className="titlecontainer">
                 <p className = "hptitle titlechild">{property.description_text}</p>
                 <p className = "hplocation titlechild">{property.location}</p>                  

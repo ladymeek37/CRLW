@@ -18,6 +18,18 @@ import SurfersWalkingLO from "./BestofLaOnda/SurfersWalkingLO.jpg"
 import SurfersWalkingPointLO from "./BestofLaOnda/SurfersWalkingPointLO.jpg"
 import WatchingWavesLO from "./BestofLaOnda/WatchingWavesLO.jpg"
 import WaveLO from "./BestofLaOnda/WaveLO.jpg"
+import BeachRiverMouthLO from "./BestofLaOnda/BeachRiverMouthLO.jpg"
+import BeachView2LO from "./BestofLaOnda/BeachView2LO.jpg"
+import HillTop from "./BestofLaOnda/HillTop.jpg"
+import OceanView2LO from "./BestofLaOnda/OceanView2LO.jpg"
+import OceanViewLO from "./BestofLaOnda/OceanViewLO.jpg"
+import OceanView3LO from "./BestofLaOnda/OceanView3LO.jpg"
+import PapaTree from "./BestofLaOnda/PapaTree.jpg"
+import TreeRoots from "./BestofLaOnda/TreeRoots.jpg"
+import TreeView2LO from "./BestofLaOnda/TreeView2LO.jpg"
+import TreeViewLO from "./BestofLaOnda/TreeViewLO.jpg"
+
+
 
 //Map Imports:
 import Map1 from "./PropertyMaps/Map1.jpg"
@@ -101,7 +113,46 @@ const LaOndaPage = () => {
             original: BridgeCoupleLO,
             thumbnail: BridgeCoupleLO,
         },
-        
+        {
+            original: BeachRiverMouthLO,
+            thumbnail: BeachRiverMouthLO,
+        },
+        {
+            original: BeachView2LO,
+            thumbnail: BeachView2LO,
+        },
+        {
+            original: HillTop,
+            thumbnail: HillTop,
+        },
+        {
+            original: OceanView2LO,
+            thumbnail: OceanView2LO,
+        },
+        {
+            original: OceanView3LO,
+            thumbnail: OceanView3LO,
+        },
+        {
+            original: OceanViewLO,
+            thumbnail: OceanViewLO,
+        },
+        {
+            original: PapaTree,
+            thumbnail: PapaTree,
+        },
+        {
+            original: TreeRoots,
+            thumbnail: TreeRoots,
+        },
+        {
+            original: TreeView2LO,
+            thumbnail: TreeView2LO,
+        },
+        {
+            original: TreeViewLO,
+            thumbnail: TreeViewLO,
+        },
 
 
       ];

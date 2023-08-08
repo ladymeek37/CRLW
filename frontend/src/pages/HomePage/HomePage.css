@@ -1,3 +1,27 @@
+@media only screen 
+and (device-width: 390px) 
+and (device-height: 844px) 
+and (-webkit-device-pixel-ratio: 3) {
+    .thumbnailimage{
+        width: 16rem !important;
+        height: 10rem !important;
+    }
+    .hptitle{
+        font-size: 2rem !important;
+    }
+    .hplocation{
+        font-size: .5rem !important;
+    }
+    .hpchild{
+        padding: 1.5rem !important;
+        margin: 2rem !important;
+    }
+    .hpcontainer{
+        margin-top: 0.5rem !important;
+    }
+
+}
+
 .hptitle{
     font-family: 'Ms Madi', cursive;
     font-size: 3rem;
@@ -24,7 +48,7 @@
     margin-left: 6rem;
     margin-right: 6rem;
     justify-content: center;
-    background-color: rgb(234, 241, 241);
+    background-color: rgb(96 125 139 / 11%);
     padding: 2rem;
 }
 
@@ -33,4 +57,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between
+}
+
+.thumbnailimage{
+    width: 27rem;
+    height: 17rem;
 }
