@@ -62,6 +62,10 @@ const LaOndaPage = () => {
 
     const images = [
         {
+            original: OceanView2LO,
+            thumbnail: OceanView2LO,
+        },
+        {
             original: BeachViewLO,
             thumbnail: BeachViewLO, 
         },
@@ -124,10 +128,6 @@ const LaOndaPage = () => {
         {
             original: HillTop,
             thumbnail: HillTop,
-        },
-        {
-            original: OceanView2LO,
-            thumbnail: OceanView2LO,
         },
         {
             original: OceanView3LO,
