@@ -92,7 +92,7 @@ and (orientation: landscape) {
 }
 
 .ppchild{
-    margin-bottom: 3rem;
+    margin-bottom: 8%;
 }
 
 a {
@@ -136,7 +136,7 @@ p{
 }
 
 .propertynameandloc{
-    padding: 4rem;
+    padding-top: 3rem;
 }
 
 .aboutinfo{
