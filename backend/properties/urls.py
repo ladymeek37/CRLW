@@ -8,4 +8,5 @@ urlpatterns = [
     path("by_id/<int:property_id>/", views.get_property_by_id),
     path('post/', views.post_property),
     path("<int:pk>/", views.property_detail),
+    path("test/", views.test_property_api),
 ]

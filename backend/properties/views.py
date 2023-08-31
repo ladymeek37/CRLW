@@ -8,6 +8,12 @@ from .serializers import PropertySerializer
 from django.shortcuts import get_object_or_404
 # Create your views here.
 
+#Test endpoint
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def test_property_api(request):
+    return Response("Test endpoint successful!")
+
 # Private route to get all properties (All properties page)
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
