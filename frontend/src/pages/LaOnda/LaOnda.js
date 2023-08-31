@@ -178,6 +178,19 @@ const LaOndaPage = () => {
                 showPlayButton = {false}
                 showFullscreenButton = {true}/> 
             </div>
+            <div>
+                <h2> About La Onda </h2>
+                <div className="ppchild">
+                    <div className="ppchild">
+                        <h3>Playa Pavones:</h3>
+                        <p>Playa Pavones is home to one of the longest left-hand point breaks in the world. People travel from all over the world to get to surf this legendary wave. With a good swell, you can expect up to a mile long ride on a single wave. This quaint surf town has a few local restaurants featuring typical style meals and other cuisine, a soccerfield, a surfshop, a variety of rental cabinas and houses, and more. This southern area of Costa Rica is known for it's beautiful nature, beaches and wildlife. Scarelt macaws, howler monkeys, toucans, iguanas, wild horses and sloths are easily seen daily in this zone, just to name a few. Pavones is also known for it's year round fishing oppourtunites. This town is a naturally beautiful paradise.   </p>                
+                    </div>
+                    <div>
+                        <h3 >The Property:</h3>
+                        <p>The property is 84 acres made up of rolling pasture fields with several ocean view ridgelines. A beautiful river runs through the property, with the river mouth entering the ocean on the south border of the property. The property runs along both sides of the main road into Pavones and is filled with many building sites of different sizes, all overlooking the ocean. You can find exciting hiking trails, swimming holes, wildlife, and beautiful views overlooking Pavones, Matapalo and Playa Zancudo. Along the beach is the La Onda surf break, a fun left-hand point break… one of the many surf spots in the area. La Onda is a one of a kind property with so much to offer!</p>                
+                    </div>                      
+                </div>
+            </div>               
             {/* <img className = "ppchild" src={La_Onda} width="900" height="700"/> */}
                 <h2> Video Gallery </h2>            
             <div className = "videocontainer ppchild" >
@@ -201,20 +214,7 @@ const LaOndaPage = () => {
                     >
                 </iframe>                
             </div>
-            <div>
-                <h2> About La Onda </h2>
-                <div className="ppchild">
-                    <div className="ppchild">
-                        <h3>Playa Pavones:</h3>
-                        <p>Playa Pavones is home to one of the longest left-hand point breaks in the world. People travel from all over the world to get to surf this legendary wave. With a good swell, you can expect up to a mile long ride on a single wave. This quaint surf town has a few local restaurants featuring typical style meals and other cuisine, a soccerfield, a surfshop, a variety of rental cabinas and houses, and more. This southern area of Costa Rica is known for it's beautiful nature, beaches and wildlife. Scarelt macaws, howler monkeys, toucans, iguanas, wild horses and sloths are easily seen daily in this zone, just to name a few. Pavones is also known for it's year round fishing oppourtunites. This town is a naturally beautiful paradise.   </p>                
-                    </div>
-                    <div>
-                        <h3 >The Property:</h3>
-                        <p>The property is 84 acres made up of rolling pasture fields with several ocean view ridgelines. A beautiful river runs through the property, with the river mouth entering the ocean on the south border of the property. The property runs along both sides of the main road into Pavones and is filled with many building sites of different sizes, all overlooking the ocean. You can find exciting hiking trails, swimming holes, wildlife, and beautiful views overlooking Pavones, Matapalo and Playa Zancudo. Along the beach is the La Onda surf break, a fun left-hand point break… one of the many surf spots in the area. La Onda is a one of a kind property with so much to offer!</p>                
-                    </div>                      
-                </div>
-              
-            </div>                
+             
  
                 <h2>  Surverys & Maps  </h2>            
             <div className="ppchild">
