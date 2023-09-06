@@ -19,7 +19,7 @@ const HomePage = () => {
   useEffect(() => {
     const fetchProperties = async () => {
       try {
-        let response = await axios.get("http://127.0.0.1:8000/api/properties/all/", {
+        let response = await axios.get("http://18.189.9.42:8000/api/properties/all/", {
           headers: {
             Authorization: "Bearer " + token,
           },
@@ -65,7 +65,7 @@ return (
           <div className = "hpchild" > 
           <Link to ={property.name} style = {{ color: 'black', textDecoration: 'none' }}>
             <div  key={property.id}>
-              <img className = "thumbnailimage" src={`http://127.0.0.1:8000${property.thumbnail}`} alt={property.name} />
+              <img className = "thumbnailimage" src={`http://18.189.9.42:8000${property.thumbnail}`} alt={property.name} />
               <div className="titlecontainer">
                 <p className = "hptitle titlechild">{property.description_text}</p>
                 <p className = "hplocation titlechild">{property.location}</p>                  

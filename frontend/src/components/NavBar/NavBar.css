@@ -38,7 +38,7 @@ li {
   color: white;
   margin-bottom: 2rem;
   padding: 1.5rem 2rem;
-  background-image: url("/Users/ladymeek/Desktop/crlwrepo/frontend/src/images/IMG_9006.jpg");
+  background-image: url("./images/IMG_9006.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -1,0 +1,36 @@
+version: "3.1"
+services:
+
+  crlw-app-database:
+    image: ladymeek/crlw-database-do:10.0
+    # build: ./database
+    ports:
+      - 3306:3306
+    environment:
+      -  MYSQL_ROOT_PASSWORD=password
+    restart: always
+    volumes: 
+      - db-data:/var/lib/mysql
+
+  crlw-app-backend:
+    image: ladymeek/crlw-backend-do:8.0
+    # build: ./backend
+    ports: 
+      - 8000:8000
+    restart: always
+    depends_on:
+      - "crlw-app-database"
+    command: >
+      sh -c "python manage.py makemigrations && python manage.py migrate && python manage.py loaddata crlw_fixture && python manage.py runserver 0.0.0.0:8000"
+
+  crlw-app-frontend:
+    image: ladymeek/crlw-frontend-do:12.0
+    # build: ./frontend
+    ports:
+      - 3000:3000
+      - 80:80
+      - 443:443
+    depends_on:
+      - "crlw-app-backend"
+volumes:
+  db-data:
