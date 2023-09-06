@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 AUTH_USER_MODEL = 'authentication.User'
 
@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'authentication.apps.AuthenticationConfig',
     'corsheaders',
     'cars.apps.CarsConfig',  # This app is for example use only
-    'properties'
+    'properties',
+    'fixture_media'
 ]
 
 MIDDLEWARE = [
@@ -161,6 +162,7 @@ MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'mediafiles')
 
 # URL used to access the media
 MEDIA_URL = '/media/'
+
 
 try:
     from drf_jwt_backend.local_settings import *
