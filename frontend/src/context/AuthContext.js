@@ -42,7 +42,7 @@ export const AuthProvider = ({ children }) => {
         setIsServerError(false);
         navigate("/login");
       } else {
-        navigate("/register");
+        navigate("/login");
       }
     } catch (error) {
       console.log(error.response.data);
@@ -60,12 +60,12 @@ export const AuthProvider = ({ children }) => {
         setIsServerError(false);
         navigate("/");
       } else {
-        navigate("/register");
+        navigate("/login");
       }
     } catch (error) {
       console.log(error.response.data);
       setIsServerError(true);
-      navigate("/register");
+      navigate("/login");
     }
   };
 

@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'corsheaders',
     'cars.apps.CarsConfig',  # This app is for example use only
     'properties',
-    'fixture_media'
 ]
 
 MIDDLEWARE = [
@@ -158,7 +157,8 @@ SIMPLE_JWT = {
 import os
 
 # Actual directory user files go to
-MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'mediafiles')
+# MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'mediafiles')
+MEDIA_ROOT = '/user/src/app/mediafiles'
 
 # URL used to access the media
 MEDIA_URL = '/media/'
