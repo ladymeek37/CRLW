@@ -2,7 +2,7 @@ version: "3.1"
 services:
 
   crlw-app-database:
-    image: ladymeek/crlw-database-do:12.0
+    image: ladymeek/crlw-database-do:13.0
     # build: ./database
     ports:
       - 3306:3306
@@ -13,7 +13,7 @@ services:
       - db-data:/var/lib/mysql
 
   crlw-app-backend:
-    image: ladymeek/crlw-backend-do:14.0
+    image: ladymeek/crlw-backend-do:15.0
     # build: ./backend
     ports: 
       - 8000:8000
@@ -24,7 +24,7 @@ services:
       sh -c "python manage.py makemigrations && python manage.py migrate && python manage.py loaddata crlw_fixture && python manage.py runserver 0.0.0.0:8000"
 
   crlw-app-frontend:
-    image: ladymeek/crlw-frontend-do:16.0
+    image: ladymeek/crlw-frontend-do:18.0
     # build: ./frontend
     ports:
       - 3000:3000
