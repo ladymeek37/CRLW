@@ -1,9 +1,16 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import useAuth from "../../hooks/useAuth";
 import { useNavigate, Link} from "react-router-dom";
 import "./HomePage.css"
-import axios from "axios";
+// import axios from "axios";
+
+//Thumbnail Imports
+import MonkeyRanchThumbnail from "./HomePageAssets/MonkeyRanchThumbnail.jpg"
+import LaOndaThumbnail from "./HomePageAssets/LaOndaThumbnail.jpg"
+import BuenosAiresThumbnail from "./HomePageAssets/BuenosAiresThumbnail.JPG"
+import HermosaLotThumbnail from "./HomePageAssets/HermosaLotThumbnail.jpg"
+import RockHouseThumbnail from "./HomePageAssets/RockHouseThumbnail.jpg"
 
 const HomePage = () => {
   // The "user" value from this Hook contains the decoded logged in user information (username, first name, id)
@@ -16,21 +23,21 @@ const HomePage = () => {
 
 
 
-  useEffect(() => {
-    const fetchProperties = async () => {
-      try {
-        let response = await axios.get("http://18.189.9.42:8000/api/properties/all/", {
-          headers: {
-            Authorization: "Bearer " + token,
-          },
-        });
-        setProperties(response.data);
-      } catch (error) {
-        console.log(error.response.data);
-      }
-    };
-    fetchProperties();
-  }, [token]);
+  // useEffect(() => {
+  //   const fetchProperties = async () => {
+  //     try {
+  //       let response = await axios.get("http://127.0.0.1:800/api/properties/all/", {
+  //         headers: {
+  //           Authorization: "Bearer " + token,
+  //         },
+  //       });
+  //       setProperties(response.data);
+  //     } catch (error) {
+  //       console.log(error.response.data);
+  //     }
+  //   };
+  //   fetchProperties();
+  // }, [token]);
 
 
  
@@ -51,33 +58,83 @@ const HomePage = () => {
 //       ))}
 //   </div>
 // );
+
+
 return (
   <html>
-    <head>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet" />
-    </head>
-    <body>
-  <div className="hpcontainer">
-      {properties &&
-        properties.map((property) => (
-          <div className = "hpchild" > 
-          <Link to ={property.name} style = {{ color: 'black', textDecoration: 'none' }}>
-            <div  key={property.id}>
-              <img className = "thumbnailimage" src={`http://18.189.9.42:8000${property.thumbnail}`} alt={property.name} />
-              <div className="titlecontainer">
-                <p className = "hptitle titlechild">{property.description_text}</p>
-                <p className = "hplocation titlechild">{property.location}</p>                  
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+
+    {/* Monkey Ranch */}
+    <div className="hpcontainer">
+            <div className = "hpchild" > 
+            <Link to ='/monkeyranch' style = {{ color: 'black', textDecoration: 'none' }}>
+              <div >
+                <img className = "thumbnailimage" src={MonkeyRanchThumbnail} alt= {"Monkey Ranch Thumbnail"}/>
+                <div className="titlecontainer">
+                  <p className = "hptitle titlechild">Monkey Ranch</p>
+                  <p className = "hplocation titlechild">Dominicalito, Costa Rica</p>                  
+                </div>
               </div>
+            </Link>
+            </div> 
+    {/* La Onda */}
+            <div className = "hpchild" > 
+            <Link to ='/laonda' style = {{ color: 'black', textDecoration: 'none' }}>
+              <div >
+                <img className = "thumbnailimage" src={LaOndaThumbnail} alt={"La Onda Thumbnail"} />
+                <div className="titlecontainer">
+                  <p className = "hptitle titlechild">La Onda</p>
+                  <p className = "hplocation titlechild">Playa Pavones, Costa Rica</p>                  
+                </div>
+              </div>
+            </Link>
+            </div> 
+    {/* Buenos Aires */}
+            <div className = "hpchild" > 
+            <Link to ='/buenosaires' style = {{ color: 'black', textDecoration: 'none' }}>
+              <div >
+                <img className = "thumbnailimage" src={BuenosAiresThumbnail} alt={"Buenos Aires Thumbnail"} />
+                <div className="titlecontainer">
+                  <p className = "hptitle titlechild">Buenos Aires</p>
+                  <p className = "hplocation titlechild">San Isidro, Costa Rica</p>                  
+                </div>
+              </div>
+            </Link>
+            </div>   
+    {/* Hermosa Lot */}
+            <div className = "hpchild" > 
+            <Link to ='/hermosalot' style = {{ color: 'black', textDecoration: 'none' }}>
+              <div >
+                <img className = "thumbnailimage" src={HermosaLotThumbnail} alt={"Hermosa Lot Thumbnail"} />
+                <div className="titlecontainer">
+                  <p className = "hptitle titlechild">Hermosa Lot</p>
+                  <p className = "hplocation titlechild">Playa Hermosa, Costa Rica</p>                  
+                </div>
+              </div>
+            </Link>
             </div>
-          </Link>
-          </div>
-        ))}      
-</div>       
-    </body>
-   
-  </html>
+    {/* Rock House */}
+            <div className = "hpchild" > 
+            <Link to ='/rockhouse' style = {{ color: 'black', textDecoration: 'none' }}>
+              <div >
+                <img className = "thumbnailimage" src={RockHouseThumbnail} alt={"Rock House Thumbnail"} />
+                <div className="titlecontainer">
+                  <p className = "hptitle titlechild">Rock House</p>
+                  <p className = "hplocation titlechild">San Isidro, Costa Rica</p>                  
+                </div>
+              </div>
+            </Link>
+            </div>
+                  
+    </div>        
+  </body>
+ 
+</html>
 
 );
 }

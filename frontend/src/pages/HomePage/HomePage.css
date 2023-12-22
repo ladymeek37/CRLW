@@ -44,12 +44,11 @@ and (max-device-width: 420px) {
 }
 
 .hpchild{
-    margin: 4rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin: 4%;
     justify-content: center;
     background-color: rgb(96 125 139 / 11%);
     padding: 2rem;
+    box-shadow: -5px 10px 27px 0px rgba(25, 25, 25, 0.22);
 }
 
 .titlecontainer{

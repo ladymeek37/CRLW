@@ -39,6 +39,12 @@ import MuralMR from "./BestofMonkeyRanch/MuralMR.jpg"
 import WallArt2MR from "./BestofMonkeyRanch/WallArt2MR.jpg"
 import WaterFountainMR from "./BestofMonkeyRanch/WaterFountainMR.jpg"
 
+import JungleHouse1 from "./BestofJungleHouse/JungleHouse1.JPG"
+import MRSunset1 from "./BestofJungleHouse/MRSunset1.JPG"
+import MRSunset2 from "./BestofJungleHouse/MRSunset2.JPG"
+import MRWaterfall1 from "./BestofJungleHouse/MRWaterfall1.JPG"
+import MRWaterfall2 from "./BestofJungleHouse/MRWaterfall2.JPG"
+
 
 
 
@@ -185,11 +191,32 @@ const MonkeyRanchPage = () => {
             original: WaterFountainMR,
             thumbnail: WaterFountainMR, 
         },
-
-
-
+        {
+            original: MRSunset1,
+            thumbnail: MRSunset1, 
+        },
+        {
+            original: MRSunset2,
+            thumbnail: MRSunset2, 
+        },        
+        {
+            original: MRWaterfall1,
+            thumbnail: MRWaterfall1, 
+        },
+        {
+            original: MRWaterfall2,
+            thumbnail: MRWaterfall2, 
+        },
 
     ];
+    const junglehouseimages = [
+        {
+            original: JungleHouse1,
+            thumbnail: JungleHouse1, 
+        },
+    ];
+
+
 
     return ( 
             <html>
@@ -212,6 +239,41 @@ const MonkeyRanchPage = () => {
                     showPlayButton = {false}
                     showFullscreenButton = {true}/> 
                 </div>
+                <div>
+                    <h2> About </h2>
+                    <div className="ppchild">
+                        <div className="ppchild">
+                            {/* <h3>Playa Pavones:</h3> */}
+                            <p>Nestled in the heart of the esteemed Escaleras neighborhood above Dominicalito Bay, Monkey Ranch unveils a rare 72-acre spectacle, boasting a mesmerizing blend of natural wonders. A sanctuary of creeks, streams, and a majestic 40-foot waterfall, this estate captivates with private swimming holes, pristine jungle, and panoramic ocean views that stretch far along the coast. The property's elevation on a 1,100’ ridgeline provides a refreshing ocean climate, creating an idyllic setting for a life of luxury in Costa Rica.  The estate includes 2 large luxury houses for a total of 12 bedrooms and a caretaker’s house. </p>
+                            <br/>
+                            <br/>
+                            <p>A naturalist's paradise, Monkey Ranch invites owners and guests to revel in refreshing dips in natural pools, fishing in a spring fed tilapia pond , and exploring jungle trails.   A big portion of the property has been planted in fruit bearing trees and gardens.  Banana, papaya, coconut, starfruit, pineapple, orange, grapefruit just to name a few. </p>
+                            <br/>
+                            <br/>
+                            <p>The main home was completed in 2016 and consists of 8,000+ square feet of luxury living.   The home has 5 bedrooms including three master suites.   A giant infinity swimming pool fronts on 80% of the house.   Lots of extra amenities in this home include all wood ceilings, stone floors, teak decks, solar hot water, and a great room with 30’ cathedral ceilings.   The home was built with extreme durable materials to stand up to the rainforest climate.  Hand-carved wooden finishes adorn the interior, showcasing custom 3D artwork depicting local wildlife. The open flow between living spaces and outdoor dining areas emphasizes the property's natural rainforest setting. Monkey Ranch seamlessly marries indoor and outdoor entertaining, with shaded lounge areas, a grilling station, covered smoker, walk-up pool bar, and yoga palapa platform overlooking the Pacific.</p>
+                            <br/>
+                            <br/>
+                            <p>The second home (The Jungle House) was build on a peninsula with two spring fed creeks running right by the house.   The home has 7 bedrooms and is an excellent rental property. The jungle house also has a separate swimming pool and a swing bridge to cross over the creek.</p>
+                            <br/>
+                            <br/>
+                            <p>The estate's centerpiece is a 40-foot waterfall, cascading amidst 72 acres of lush rainforest, connected by streams that weave through the compound. Fully stocked tilapia  pond,  walking bridges, and internal trails offer a private nature sanctuary within the sought-after Escaleras community. The property's size is unparalleled, perched on a ridgeline with sweeping ocean views, and its strategic location provides cool coastal breezes during the day and refreshing mountain winds at night.   There are multiple more ocean view building sites on the property for future development. </p>
+                            <br/>
+                            <br/>
+                            <p>Conveniently located 15 to 20 minutes from downtown Dominical, Monkey Ranch provides access to a laid-back community with organic markets, regional grocery stores, and diverse dining options. The surrounding area offers adventure and exploration, from deep-sea fishing in Quepos Marina to whale watching at Marino Ballena National Park. </p>
+                            <br/>
+                            <br/>
+                            <p> For those seeking a unique luxury experience on Costa Rica's South Pacific Coast, Monkey Ranch stands as a testament to opulence, seamlessly blending natural beauty with modern elegance. To truly grasp the magnitude of this extraordinary estate, a personal showing is a must on your Dominical luxury home tour. Welcome to a lifestyle where unparalleled luxury meets the untamed beauty of the rainforest at Monkey Ranch. </p>
+                        </div>                    
+                    </div>
+                </div>
+
+
+                <h2> Location Map </h2>
+                <div className="ppchild">
+                    <iframe className= "googlemap" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1061.4487667047285!2d-83.82168873041323!3d9.232779999427308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwMTMnNTguMCJOIDgzwrA0OScxNS44Ilc!5e1!3m2!1sen!2sus!4v1703205205656!5m2!1sen!2sus" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                {/* width="900" height="600"*/}
+
                 {/* <img className = "ppchild" src={La_Onda} width="900" height="700"/> */}
                     <h2> Video Gallery </h2>            
                 <div className = "videocontainer ppchild" >
@@ -223,20 +285,21 @@ const MonkeyRanchPage = () => {
                         >
                     </iframe>              
                 </div>
-                {/* <div>
-                    <h2> About La Onda </h2>
-                    <div className="ppchild">
-                        <div className="ppchild">
-                            <h3>Playa Pavones:</h3>
-                            <p>Playa Pavones is home to one of the longest left-hand point breaks in the world. People travel from all over the world to get to surf this legendary wave. With a good swell, you can expect up to a mile long ride on a single wave. This quaint surf town has a few local restaurants featuring typical style meals and other cuisine, a soccerfield, a surfshop, a variety of rental cabinas and houses, and more. This southern area of Costa Rica is known for it's beautiful nature, beaches and wildlife. Scarelt macaws, howler monkeys, toucans, iguanas, wild horses and sloths are easily seen daily in this zone, just to name a few. Pavones is also known for it's year round fishing oppourtunites. This town is a naturally beautiful paradise.   </p>                
-                        </div>
-                        <div>
-                            <h3 >The Property:</h3>
-                            <p>The property is 84 acres made up of rolling pasture fields with several ocean view ridgelines. A beautiful river runs through the property, with the river mouth entering the ocean on the south border of the property. The property runs along both sides of the main road into Pavones and is filled with many building sites of different sizes, all overlooking the ocean. You can find exciting hiking trails, swimming holes, wildlife, and beautiful views overlooking Pavones, Matapalo and Playa Zancudo. Along the beach is the La Onda surf break, a fun left-hand point break… one of the many surf spots in the area. La Onda is a one of a kind property with so much to offer!</p>                
-                        </div>                      
-                    </div>
-                  
-                </div>                       */}
+                <div className="ppchild propertynameandloc">
+                    <h1 class="decorated-title secondtitle">Jungle House</h1>
+                    <p>Located on the Monkey Ranch</p>
+                </div>
+                <h2> Photo Gallery </h2>
+                <div className="ppchild">
+                    {/* <h3 className="imagechild"> Image Gallery </h3> */}
+                    <ImageGallery items={junglehouseimages}
+                    showPlayButton = {false}
+                    showFullscreenButton = {true}/> 
+                </div>
+
+
+
+                     
 
                 </div>
             </body>
