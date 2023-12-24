@@ -73,7 +73,6 @@ and (orientation: landscape) {
     
 }
 
-
 .ppcontainer{
     margin: 0 auto;
     max-width: 80%;
@@ -142,6 +141,7 @@ p{
 
 .propertynameandloc{
     padding-top: 3rem;
+    margin-bottom: 5%;
 }
 
 .aboutinfo{

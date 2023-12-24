@@ -24,7 +24,7 @@ services:
       sh -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
 
   crlw-app-frontend:
-    image: ladymeek/crlw-frontend-do:24.0
+    image: ladymeek/crlw-frontend-do:25.0
     # build: ./frontend
     ports:
       - 3000:3000

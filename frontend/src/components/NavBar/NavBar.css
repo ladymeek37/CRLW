@@ -18,7 +18,7 @@ and (max-device-width: 420px)  {
     top: 5rem;
   }
   .bottom{
-    margin-bottom: 70px;
+    margin-bottom: 70px !important;
   }
 
 }
@@ -35,7 +35,7 @@ li {
 
 .navBar {
   color: white;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   padding: 1.5rem 2rem;
   background-image: url("./images/IMG_9006.jpg"); 
   background-size: cover;
@@ -72,3 +72,7 @@ li {
   cursor: pointer;
   font-size: 2rem;
 }
+
+/* .bottom{
+  padding-bottom: 30rem;
+} */

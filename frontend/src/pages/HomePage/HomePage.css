@@ -23,6 +23,11 @@ and (max-device-width: 420px) {
 
 }
 
+.allpropertiestxt{
+    font-size: 2rem;
+}
+
+
 .hptitle{
     font-family: 'Ms Madi', cursive;
     font-size: 3rem;
@@ -36,7 +41,7 @@ and (max-device-width: 420px) {
 }
 
 .hpcontainer{
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
