@@ -190,7 +190,14 @@ const LaOndaPage = () => {
                         <p>The property is 84 acres made up of rolling pasture fields with several ocean view ridgelines. A beautiful river runs through the property, with the river mouth entering the ocean on the south border of the property. The property runs along both sides of the main road into Pavones and is filled with many building sites of different sizes, all overlooking the ocean. You can find exciting hiking trails, swimming holes, wildlife, and beautiful views overlooking Pavones, Matapalo and Playa Zancudo. Along the beach is the La Onda surf break, a fun left-hand point break… one of the many surf spots in the area. La Onda is a one of a kind property with so much to offer!</p>                
                     </div>                      
                 </div>
-            </div>               
+            </div> 
+            <div>
+                <h2> Location Map </h2>
+                    <div className="ppchild">
+                        <iframe className= "googlemap" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4121.50373186746!2d-83.10363889999999!3d8.423583299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMjUnMjQuOSJOIDgzwrAwNicxMy4xIlc!5e1!3m2!1sen!2sus!4v1703610672811!5m2!1sen!2sus" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>                 
+            </div>
+             
             {/* <img className = "ppchild" src={La_Onda} width="900" height="700"/> */}
                 <h2> Video Gallery </h2>            
             <div className = "videocontainer ppchild" >

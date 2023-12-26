@@ -38,12 +38,42 @@ import WoodenStairsMR from "./BestofMonkeyRanch/WoodenStairsMR.jpg"
 import MuralMR from "./BestofMonkeyRanch/MuralMR.jpg"
 import WallArt2MR from "./BestofMonkeyRanch/WallArt2MR.jpg"
 import WaterFountainMR from "./BestofMonkeyRanch/WaterFountainMR.jpg"
-
-import JungleHouse1 from "./BestofJungleHouse/JungleHouse1.JPG"
 import MRSunset1 from "./BestofJungleHouse/MRSunset1.JPG"
 import MRSunset2 from "./BestofJungleHouse/MRSunset2.JPG"
 import MRWaterfall1 from "./BestofJungleHouse/MRWaterfall1.JPG"
 import MRWaterfall2 from "./BestofJungleHouse/MRWaterfall2.JPG"
+
+// Jungle House Photo Imports
+import JungleHouse1 from "./BestofJungleHouse/JungleHouse1.JPG"
+import BalconyJH1 from "./BestofJungleHouse/BalconyJH1.jpg"
+import BathroomJH2 from "./BestofJungleHouse/BathroomJH2.jpg"
+import BathroomJH3 from "./BestofJungleHouse/BathroomJH3.jpg"
+import BedroomJH2 from "./BestofJungleHouse/BedroomJH2.jpg"
+import BedroomJH3 from "./BestofJungleHouse/BedroomJH3.jpg"
+import BedroomJH4 from "./BestofJungleHouse/BedroomJH4.jpg"
+import BedroomJH6 from "./BestofJungleHouse/BedroomJH6.jpg"
+import BridgeJH2 from "./BestofJungleHouse/BridgeJH2.jpg"
+import CouchJH1 from "./BestofJungleHouse/CouchJH1.jpg"
+import DiningRoomJH1 from "./BestofJungleHouse/DiningRoomJH1.jpg"
+import EntranceRoomJH1 from "./BestofJungleHouse/EntranceRoomJH1.jpg"
+import GateJH1 from "./BestofJungleHouse/GateJH1.jpg"
+import HouseJH1 from "./BestofJungleHouse/HouseJH1.jpg"
+import HouseJH2 from "./BestofJungleHouse/HouseJH2.jpg"
+import HouseJH3 from "./BestofJungleHouse/HouseJH3.jpg"
+import HouseJH4 from "./BestofJungleHouse/HouseJH4.jpg"
+import KitchenJH1 from "./BestofJungleHouse/KitchenJH1.jpg"
+import KitchenJH2 from "./BestofJungleHouse/KitchenJH2.jpg"
+import KitchenJH4 from "./BestofJungleHouse/KitchenJH4.jpg"
+import LivingRoomJH2 from "./BestofJungleHouse/LivingRoomJH2.jpg"
+import LivingRoomJH3 from "./BestofJungleHouse/LivingRoomJH3.jpg"
+import MasterBalconyJH1 from "./BestofJungleHouse/MasterBalconyJH1.jpg"
+import MasterBathJH1 from "./BestofJungleHouse/MasterBathJH1.jpg"
+import MasterBedroomJH1 from "./BestofJungleHouse/MasterBedroomJH1.jpg"
+import OutsideJH1 from "./BestofJungleHouse/OutsideJH1.jpg"
+import PoolJH1 from "./BestofJungleHouse/PoolJH1.jpg"
+import StairsJH2 from "./BestofJungleHouse/StairsJH2.jpg"
+import UpstairsHallJH1 from "./BestofJungleHouse/UpstairsHallJH1.jpg"
+import ViewJH1 from "./BestofJungleHouse/ViewJH1.jpg"
 
 
 
@@ -211,8 +241,116 @@ const MonkeyRanchPage = () => {
     ];
     const junglehouseimages = [
         {
+            original: HouseJH2,
+            thumbnail: HouseJH2, 
+        },
+        {
             original: JungleHouse1,
             thumbnail: JungleHouse1, 
+        },
+        {
+            original: HouseJH1,
+            thumbnail: HouseJH1, 
+        },
+        {
+            original: OutsideJH1,
+            thumbnail: OutsideJH1, 
+        },
+        {
+            original: BridgeJH2,
+            thumbnail: BridgeJH2, 
+        },
+        {
+            original: ViewJH1,
+            thumbnail: ViewJH1, 
+        },
+        {
+            original: GateJH1,
+            thumbnail: GateJH1, 
+        },
+        {
+            original: PoolJH1,
+            thumbnail: PoolJH1, 
+        },
+        {
+            original: LivingRoomJH3,
+            thumbnail: LivingRoomJH3, 
+        },
+        {
+            original: LivingRoomJH2,
+            thumbnail: LivingRoomJH2, 
+        },
+        {
+            original: DiningRoomJH1,
+            thumbnail: DiningRoomJH1, 
+        },
+        {
+            original: EntranceRoomJH1,
+            thumbnail: EntranceRoomJH1, 
+        },
+        {
+            original: KitchenJH1,
+            thumbnail: KitchenJH1, 
+        },
+        {
+            original: KitchenJH2,
+            thumbnail: KitchenJH2, 
+        },
+        {
+            original: KitchenJH4,
+            thumbnail: KitchenJH4, 
+        },
+        {
+            original: StairsJH2,
+            thumbnail: StairsJH2, 
+        },
+        {
+            original: UpstairsHallJH1,
+            thumbnail: UpstairsHallJH1, 
+        },
+        {
+            original: MasterBedroomJH1,
+            thumbnail: MasterBedroomJH1, 
+        },
+        {
+            original: MasterBathJH1,
+            thumbnail: MasterBathJH1, 
+        },
+        {
+            original: MasterBalconyJH1,
+            thumbnail: MasterBalconyJH1, 
+        },
+        {
+            original: CouchJH1,
+            thumbnail: CouchJH1, 
+        },
+        {
+            original: BedroomJH2,
+            thumbnail: BedroomJH2, 
+        },
+        {
+            original: BedroomJH3,
+            thumbnail: BedroomJH3, 
+        },
+        {
+            original: BedroomJH4,
+            thumbnail: BedroomJH4, 
+        },
+        {
+            original: BedroomJH6,
+            thumbnail: BedroomJH6, 
+        },
+        {
+            original: BathroomJH2,
+            thumbnail: BathroomJH2, 
+        },
+        {
+            original: BathroomJH3,
+            thumbnail: BathroomJH3, 
+        },
+        {
+            original: BalconyJH1,
+            thumbnail: BalconyJH1, 
         },
     ];
 
