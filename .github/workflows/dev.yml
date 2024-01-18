@@ -113,7 +113,7 @@ jobs:
             git reset --hard
             git pull
             docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password ${{ secrets.DOCKERHUB_TOKEN }}
-            docker-compose up -d --force-recreate frontend
+            docker-compose up -d --force-recreate --no-deps crlw-app-frontend
 
   backend:
     needs: files-changed
@@ -198,7 +198,7 @@ jobs:
             git reset --hard
             git pull
             docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password ${{ secrets.DOCKERHUB_TOKEN }}
-            docker-compose up -d --force-recreate backend
+            docker-compose up -d --force-recreate --no-deps crlw-app-backend
 
   compose:
     needs: files-changed
