@@ -48,7 +48,7 @@ services:
       - "crlw-app-backend"
     restart: always
   backend:
-    image: ladymeek/crlw-backend-do:sha-938b68b
+    image: ladymeek/crlw-backend-do:sha-6ea8fc4
 volumes:
   db-data:
   nginx_secrets:
