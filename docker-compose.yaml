@@ -37,7 +37,7 @@ services:
     command: >
       sh -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
     volumes:
-      - ~/CRWL/backend/drf_jwt_backend/local_settings.py:/user/src/app/drf_jwt_backend/local_settings.py
+      - ./backend/drf_jwt_backend/local_settings.py:/user/src/app/drf_jwt_backend/local_settings.py
 
   crlw-app-frontend:
     image: ladymeek/crlw-frontend-do:26.0
