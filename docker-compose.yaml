@@ -12,7 +12,6 @@ services:
       - ./nginx-files:/etc/nginx/user_conf.d
       - nginx_secrets:/etc/letsencrypt
     restart: always
-
   crlw-app-database:
     image: mysql:latest
     container_name: database
@@ -23,23 +22,22 @@ services:
       - MYSQL_DATABASE=crlw_database
       - MYSQL_ROOT_PASSWORD=password
     restart: always
-    volumes: 
+    volumes:
       - db-data:/var/lib/mysql
-
   crlw-app-backend:
     image: ladymeek/crlw-backend-do:19.0
     container_name: api
     # build: ./backend
-    expose: 
+    expose:
       - "8000"
     restart: always
     depends_on:
       - "crlw-app-database"
     command: >
       sh -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+
     volumes:
       - ./backend/drf_jwt_backend/local_settings.py:/user/src/app/drf_jwt_backend/local_settings.py
-
   crlw-app-frontend:
     image: ladymeek/crlw-frontend-do:26.0
     container_name: frontend
@@ -49,6 +47,8 @@ services:
     depends_on:
       - "crlw-app-backend"
     restart: always
+  backend:
+    image: ladymeek/crlw-backend-do:sha-14bbac6
 volumes:
   db-data:
   nginx_secrets:
