@@ -25,7 +25,7 @@ services:
     volumes:
       - db-data:/var/lib/mysql
   crlw-app-backend:
-    image: ladymeek/crlw-backend-do:19.0
+    image: ladymeek/crlw-backend-do:sha-096990e
     container_name: api
     # build: ./backend
     expose:
