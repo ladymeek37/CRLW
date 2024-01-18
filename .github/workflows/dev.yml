@@ -80,7 +80,7 @@ jobs:
         name: update docker-compose image value
         uses: mikefarah/yq@master
         with:
-          cmd: yq -i '.services.frontend.image = "${{ steps.meta.outputs.tags }}"' './docker-compose.yaml'
+          cmd: yq -i '.services.crlw-app-frontend.image = "${{ steps.meta.outputs.tags }}"' './docker-compose.yaml'
 
       - 
         name: Sleep for 30 seconds
@@ -165,7 +165,7 @@ jobs:
         name: update docker-compose image value
         uses: mikefarah/yq@master
         with:
-          cmd: yq -i '.services.backend.image = "${{ steps.meta.outputs.tags }}"' './docker-compose.yaml'
+          cmd: yq -i '.services.crlw-app-backend.image = "${{ steps.meta.outputs.tags }}"' './docker-compose.yaml'
 
       - 
         name: Sleep for 30 seconds
