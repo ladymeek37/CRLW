@@ -1,1 +1,1 @@
-# drf_jwt_backendd
+# drf_jwt_backend
