@@ -27,7 +27,7 @@ jobs:
             frontend:
               - 'frontend/**'
             compose:
-              - './docker-compose.yaml'
+              - 'docker-compose.yaml'
           list-files: shell
   
   frontend:
