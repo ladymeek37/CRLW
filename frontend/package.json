@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "REACT_APP_API_URL='http://127.0.0.1:8000' react-scripts start",
-    "build": "REACT_APP_API_URL='api.crlwproperties.com' react-scripts build",
+    "build": "REACT_APP_API_URL='https://api.crlwproperties.com' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
