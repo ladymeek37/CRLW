@@ -3,7 +3,9 @@ import "../PropertyPage.css"
 const HermosaLotPage = () => {
     return ( 
         <div className = "ppcontainer">
-            <h1 className = "ppchild">Hermosa Lot</h1>
+            <div className="ppchild propertynameandloc">
+                <h1 className = "decorated-title">Hermosa Lot</h1>
+            </div>
 
             <h2> Location Map </h2>
                 <div className="ppchild">

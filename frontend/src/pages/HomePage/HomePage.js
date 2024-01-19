@@ -11,6 +11,7 @@ import LaOndaThumbnail from "./HomePageAssets/LaOndaThumbnail.jpg"
 import BuenosAiresThumbnail from "./HomePageAssets/BuenosAiresThumbnail.JPG"
 import HermosaLotThumbnail from "./HomePageAssets/HermosaLotThumbnail.jpg"
 import RockHouseThumbnail from "./HomePageAssets/RockHouseThumbnail.jpg"
+import DomiFarmThumbnail from "./HomePageAssets/DomiFarmThumbnail.jpeg"
 
 const HomePage = () => {
   // The "user" value from this Hook contains the decoded logged in user information (username, first name, id)
@@ -126,6 +127,18 @@ return (
                 <div className="titlecontainer">
                   <p className = "hptitle titlechild">Rock House</p>
                   <p className = "hplocation titlechild">San Isidro, Costa Rica</p>                  
+                </div>
+              </div>
+            </Link>
+            </div>
+    {/* Domi Farm */}
+    <div className = "hpchild" > 
+            <Link to ='/domifarm' style = {{ color: 'black', textDecoration: 'none' }}>
+              <div >
+                <img className = "thumbnailimage" src={DomiFarmThumbnail} alt={"Domi Farm Thumbnail"} />
+                <div className="titlecontainer">
+                  <p className = "hptitle titlechild">Domi Farm</p>
+                  <p className = "hplocation titlechild">Dominical, Costa Rica</p>                  
                 </div>
               </div>
             </Link>
