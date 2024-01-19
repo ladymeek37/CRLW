@@ -43,7 +43,7 @@ services:
     volumes:
       - ./backend/drf_jwt_backend/local_settings.py:/user/src/app/drf_jwt_backend/local_settings.py
   crlw-app-frontend:
-    image: ladymeek/crlw-frontend-do:sha-aeab90d
+    image: ladymeek/crlw-frontend-do:sha-42a68b9
     container_name: frontend
     # build: ./frontend
     expose:
