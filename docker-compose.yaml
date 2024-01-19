@@ -24,6 +24,10 @@ services:
     restart: always
     volumes:
       - db-data:/var/lib/mysql
+    deploy:
+      resources:
+        limits:
+          memory: 500M
   crlw-app-backend:
     image: ladymeek/crlw-backend-do:sha-43e08dc
     container_name: api
