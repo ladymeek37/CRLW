@@ -203,7 +203,7 @@ jobs:
   compose:
     needs: files-changed
     if: ${{ needs.files-changed.outputs.compose == 'true' }}
-    name: build and deploy backend application
+    name: apply docker compose changes
     runs-on: ubuntu-latest
     steps:
       - 
