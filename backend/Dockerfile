@@ -1,7 +1,7 @@
 FROM --platform=linux/amd64 python:alpine3.17
 WORKDIR /user/src/app
-RUN apk add --no-cache libjpeg-turbo-dev zlib-dev postgresql16-client && \
-    pip install --no-cache-dir Pillow mysql_connector_python
+RUN apk add --no-cache libjpeg-turbo-dev zlib-dev postgresql-client && \
+    pip install --no-cache-dir Pillow
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
 COPY . .
