@@ -13,14 +13,14 @@ services:
       - nginx_secrets:/etc/letsencrypt
     restart: always
   crlw-app-database:
-    image: mysql:latest
+    image: postgres:16
     container_name: database
-    # build: ./database
     expose:
-      - "3306"
+      - "5432"
     environment:
-      - MYSQL_DATABASE=crlw_database
-      - MYSQL_ROOT_PASSWORD=password
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=crlw_database
+      - PGDATA=/var/lib/postgresql/data/pgdata
     restart: always
     volumes:
       - db-data:/var/lib/mysql
