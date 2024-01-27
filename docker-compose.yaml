@@ -29,7 +29,7 @@ services:
         limits:
           memory: 500M
   crlw-app-backend:
-    image: ladymeek/crlw-backend-do:sha-43e08dc
+    image: ladymeek/crlw-backend-do:sha-5f6a4a4
     container_name: api
     # build: ./backend
     expose:
