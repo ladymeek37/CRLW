@@ -370,13 +370,16 @@ const MonkeyRanchPage = () => {
                     <h1 class="decorated-title">Monkey Ranch</h1>
                     <p>Dominicalito, Costa Rica</p>
                 </div>
+
+
                 <h2> Photo Gallery </h2>
                 <div className="ppchild">
                     {/* <h3 className="imagechild"> Image Gallery </h3> */}
                     <ImageGallery items={images}
                     showPlayButton = {false}
                     showFullscreenButton = {true}/> 
-                </div>
+                </div> 
+
                 <div>
                     <h2> About </h2>
                     <div className="ppchild">
@@ -405,7 +408,6 @@ const MonkeyRanchPage = () => {
                     </div>
                 </div>
 
-
                 <h2> Location Map </h2>
                 <div className="ppchild">
                     <iframe className= "googlemap" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1061.4487667047285!2d-83.82168873041323!3d9.232779999427308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwMTMnNTguMCJOIDgzwrA0OScxNS44Ilc!5e1!3m2!1sen!2sus!4v1703205205656!5m2!1sen!2sus" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -415,13 +417,20 @@ const MonkeyRanchPage = () => {
                 {/* <img className = "ppchild" src={La_Onda} width="900" height="700"/> */}
                     <h2> Video Gallery </h2>            
                 <div className = "videocontainer ppchild" >
-    
+                    <iframe className="vcchild"
+                        src={`https://www.youtube.com/embed/diGzI4BCFD0`}
+                        frameborder="0" allowFullScreen
+                        width="600" height="350"
+                        >
+                    </iframe>  
+
                     <iframe className="vcchild"
                         src={`https://www.youtube.com/embed/FVJ1hiRSxgk`}
                         frameborder="0" allowFullScreen
                         width="600" height="350"
                         >
-                    </iframe>              
+                    </iframe>
+              
                 </div>
                 <div className="ppchild propertynameandloc">
                     <h1 class="decorated-title secondtitle">Jungle House</h1>
