@@ -75,29 +75,29 @@ jobs:
           cache-from: type=registry,ref=${{ secrets.DOCKERHUB_USERNAME }}/frontend:buildcache
           cache-to: type=registry,ref=${{ secrets.DOCKERHUB_USERNAME }}/frontend:buildcache,mode=max
 
+      - name: Clone devops repository
+        uses: GuillaumeFalourd/clone-github-repo-action@v2
+        with:
+          owner: "ladymeek37"
+          repository: "devops"
+          access-token: ${{ secrets.PAT }}
+
 
       -
         name: update docker-compose image value
         uses: mikefarah/yq@master
         with:
-          cmd: yq -i '.services.crlw-app-frontend.image = "${{ steps.meta.outputs.tags }}"' './docker-compose.yaml'
+          cmd: yq -i '.services.crlw-app-frontend.image = "${{ steps.meta.outputs.tags }}"' './devops/docker-compose.yaml'
 
-      - 
-        name: Sleep for 30 seconds
-        run: sleep $[ ( $RANDOM % 10 )  + 1 ]s
-        shell: bash
 
-      - 
-          name: commit and push
-          uses: github-actions-x/commit@v2.9
-          with:
-            email: abdnacer.fried@gmail.com
-            name: Lady Meek
-            commit-message: "[skip ci]"
-            push-branch: main
-            files: docker-compose.yaml
-            github-token: ${{ secrets.PAT }}
-            rebase: 'true'
+      - name: commit and push
+        run: |
+          cd devops
+          git config --global user.email "devops@imadrassa.com"
+          git config --global user.name "DevOps"
+          git add .
+          git commit -m "[skip ci]" || echo "nothing to commit, working tree clean"
+          git push || echo "nothing to push"
             
 
       - 
