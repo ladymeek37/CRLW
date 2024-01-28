@@ -109,7 +109,7 @@ jobs:
           key: ${{ secrets.SSH_PRIV_KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd ~/CRLW
+            cd ~/devops
             git reset --hard
             git pull
             docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password ${{ secrets.DOCKERHUB_TOKEN }}
@@ -194,7 +194,7 @@ jobs:
           key: ${{ secrets.SSH_PRIV_KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd ~/CRLW
+            cd ~/devops
             git reset --hard
             git pull
             docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password ${{ secrets.DOCKERHUB_TOKEN }}
@@ -215,7 +215,7 @@ jobs:
           key: ${{ secrets.SSH_PRIV_KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd ~/CRLW
+            cd ~/devops
             git reset --hard
             git pull
             docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password ${{ secrets.DOCKERHUB_TOKEN }}
