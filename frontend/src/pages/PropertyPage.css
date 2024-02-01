@@ -5,7 +5,7 @@ and (min-device-height: 350px)
 and (max-device-width: 420px)  {
 
     h1{
-        font-size: 2rem !important;
+        font-size: 3rem !important;
     }
     h2{
         font-size: 2rem !important;

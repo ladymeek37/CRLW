@@ -46,6 +46,7 @@ function App() {
         <Route path="/monkeyranch" element={<MonkeyRanchPage/>} />        
         <Route path="/laonda" element={<LaOndaPage/>} />
       </Routes>
+      <Footer />
     </div>
   );
 }

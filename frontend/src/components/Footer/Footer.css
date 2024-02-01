@@ -1,9 +1,12 @@
 footer {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
-  font-size: 1.2rem;
+  /* font-size: 3rem; */
   left: 0;
-  padding: 1rem;
+  padding-bottom: 7rem;
   text-align: center;
   width: 100%;
+}
+.footertext{
+    font-size: 1.2rem;
 }

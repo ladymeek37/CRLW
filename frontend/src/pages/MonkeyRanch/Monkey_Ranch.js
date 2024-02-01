@@ -75,6 +75,10 @@ import StairsJH2 from "./BestofJungleHouse/StairsJH2.jpg"
 import UpstairsHallJH1 from "./BestofJungleHouse/UpstairsHallJH1.jpg"
 import ViewJH1 from "./BestofJungleHouse/ViewJH1.jpg"
 
+//Survey Imports
+import Plano1 from "./MonkeyRanchMaps/Plano1.jpeg"
+import Plano2 from "./MonkeyRanchMaps/Plano2.png"
+
 
 
 
@@ -353,6 +357,16 @@ const MonkeyRanchPage = () => {
             thumbnail: BalconyJH1, 
         },
     ];
+    const maps = [
+        {
+            original: Plano2,
+            thumbnail: Plano2, 
+        },
+        {
+            original: Plano1,
+            thumbnail: Plano1, 
+        },
+    ]
 
 
 
@@ -432,6 +446,15 @@ const MonkeyRanchPage = () => {
                     </iframe>
               
                 </div>
+
+                <h2>  Surverys & Maps  </h2>            
+                <div className="ppchild">
+                    <ImageGallery items={maps}
+                    showPlayButton = {false}
+                    showFullscreenButton = {true}
+                    style={{ width: '200px', height: 'auto' }}/> 
+                </div>
+
                 <div className="ppchild propertynameandloc">
                     <h1 class="decorated-title secondtitle">Jungle House</h1>
                     <p>Located on the Monkey Ranch</p>
