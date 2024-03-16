@@ -35,6 +35,8 @@ jobs:
     if: ${{ needs.files-changed.outputs.frontend == 'true' }}
     name: build and deploy frontend application
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       -
         name: Checkout
@@ -127,6 +129,8 @@ jobs:
     if: ${{ needs.files-changed.outputs.backend == 'true' }}
     name: build and deploy backend application
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       -
         name: Checkout
