@@ -92,12 +92,13 @@ jobs:
 
       - name: commit and push
         run: |
+          cd devops
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_user_name: Lady
-          commit_user_email: lady.meek@gmail.com 
-          commit_author: Ladymeek <lady.meek@gmail.com >
+          commit_user_name: ladymeek37
+          commit_user_email: ladyjmeek@gmail.com 
+          commit_author: ladymeek37 <ladyjmeek@gmail.com>
       #     cd devops
       #     git config --global user.email "devops@imadrassa.com"
       #     git config --global user.name "DevOps"
@@ -187,9 +188,9 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_user_name: Lady
-          commit_user_email: lady.meek@gmail.com 
-          commit_author: Ladymeek <lady.meek@gmail.com >
+          commit_user_name: ladymeek37
+          commit_user_email: ladyjmeek@gmail.com 
+          commit_author: ladymeek37 <ladyjmeek@gmail.com>
 
 
       - 
