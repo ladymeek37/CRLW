@@ -41,8 +41,7 @@ jobs:
       -
         name: Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT }}
+
       -
         name: Docker meta
         id: meta
@@ -75,12 +74,19 @@ jobs:
           cache-from: type=registry,ref=${{ secrets.DOCKERHUB_USERNAME }}/frontend:buildcache
           cache-to: type=registry,ref=${{ secrets.DOCKERHUB_USERNAME }}/frontend:buildcache,mode=max
 
-      - name: Clone devops repository
-        uses: GuillaumeFalourd/clone-github-repo-action@v2
+
+      - name: Checkout devops
+        uses: actions/checkout@v4
         with:
-          owner: "ladymeek37"
-          repository: "devops"
-          access-token: ${{ secrets.PAT }}
+          token: ${{ secrets.PAT }}
+          repository: ladymeek37/devops
+
+      # - name: Clone devops repository
+      #   uses: GuillaumeFalourd/clone-github-repo-action@v2
+      #   with:
+      #     owner: "ladymeek37"
+      #     repository: "devops"
+      #     access-token: ${{ secrets.PAT }}
 
 
       -
