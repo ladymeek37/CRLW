@@ -79,14 +79,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT }}
-          repository: ladymeek37/devops
-
-      # - name: Clone devops repository
-      #   uses: GuillaumeFalourd/clone-github-repo-action@v2
-      #   with:
-      #     owner: "ladymeek37"
-      #     repository: "devops"
-      #     access-token: ${{ secrets.PAT }}
+          repository: "ladymeek37/devops
 
 
       -
@@ -96,21 +89,11 @@ jobs:
           cmd: yq -i '.services.crlw-app-frontend.image = "${{ steps.meta.outputs.tags }}"' './devops/docker-compose.yaml'
 
 
-      - name: commit and push
-        run: |
-          cd devops
-
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_user_name: ladymeek37
           commit_user_email: ladyjmeek@gmail.com 
           commit_author: ladymeek37 <ladyjmeek@gmail.com>
-      #     cd devops
-      #     git config --global user.email "devops@imadrassa.com"
-      #     git config --global user.name "DevOps"
-      #     git add .
-      #     git commit -m "[skip ci]" || echo "nothing to commit, working tree clean"
-      #     git push || echo "nothing to push"
             
 
       - 
@@ -174,12 +157,11 @@ jobs:
           cache-from: type=registry,ref=${{ secrets.DOCKERHUB_USERNAME }}/backend:buildcache
           cache-to: type=registry,ref=${{ secrets.DOCKERHUB_USERNAME }}/backend:buildcache,mode=max
       
-      - name: Clone devops repository
-        uses: GuillaumeFalourd/clone-github-repo-action@v2
+      - name: Checkout devops
+        uses: actions/checkout@v4
         with:
-          owner: "ladymeek37"
-          repository: "devops"
-          access-token: ${{ secrets.PAT }}
+          token: ${{ secrets.PAT }}
+          repository: "ladymeek37/devops"
 
 
       -
@@ -188,10 +170,6 @@ jobs:
         with:
           cmd: yq -i '.services.crlw-app-backend.image = "${{ steps.meta.outputs.tags }}"' './devops/docker-compose.yaml'
 
-
-      - name: commit and push
-        run: |
-          cd devops
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
