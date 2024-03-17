@@ -79,7 +79,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT }}
-          repository: "ladymeek37/devops
+          repository: "ladymeek37/devops"
 
 
       -
