@@ -86,7 +86,7 @@ jobs:
         name: update docker-compose image value
         uses: mikefarah/yq@master
         with:
-          cmd: yq -i '.services.crlw-app-frontend.image = "${{ steps.meta.outputs.tags }}"' './devops/docker-compose.yaml'
+          cmd: yq -i '.services.crlw-app-frontend.image = "${{ steps.meta.outputs.tags }}"' './docker-compose.yaml'
 
 
       - uses: stefanzweifel/git-auto-commit-action@v5
@@ -168,7 +168,7 @@ jobs:
         name: update docker-compose image value
         uses: mikefarah/yq@master
         with:
-          cmd: yq -i '.services.crlw-app-backend.image = "${{ steps.meta.outputs.tags }}"' './devops/docker-compose.yaml'
+          cmd: yq -i '.services.crlw-app-backend.image = "${{ steps.meta.outputs.tags }}"' './docker-compose.yaml'
 
 
       - uses: stefanzweifel/git-auto-commit-action@v5
