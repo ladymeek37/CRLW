@@ -459,12 +459,21 @@ const MonkeyRanchPage = () => {
                     <h1 class="decorated-title secondtitle">Jungle House</h1>
                     <p>Located on the Monkey Ranch</p>
                 </div>
+
                 <h2> Photo Gallery </h2>
                 <div className="ppchild">
                     {/* <h3 className="imagechild"> Image Gallery </h3> */}
                     <ImageGallery items={junglehouseimages}
                     showPlayButton = {false}
                     showFullscreenButton = {true}/> 
+                </div>
+                <div>
+                    <h2> About </h2>
+                    <div className="ppchild">
+                        <div className="ppchild">
+                            <p>Beautiful and spacious private home in the heart of the Costa Rican rainforest. Surrounded by two creeks that merge into one in the back yard. Including a pool, outdoor barbeque area, partial AC, patio, multiple balconies, hammocks, window ocean view, fully stocked kitchen, safe box, and lots of monkeys and wildlife. Only a 10 minute drive to the beach.</p>
+                        </div>                    
+                    </div>
                 </div>
 
 
