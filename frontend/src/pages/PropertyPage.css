@@ -91,6 +91,8 @@ and (orientation: landscape) {
 .vcchild{
     margin: 2rem;
     margin-top: 2rem;
+    width: "800" ;
+    height: "550";
 }
 
 .ppchild{

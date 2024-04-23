@@ -6,8 +6,89 @@ import ImageGallery from "react-image-gallery";
 import RHSurvey1 from "./RockHouseMaps/RHSurvey1.png"
 import RHSurvey2 from "./RockHouseMaps/RHSurvey2.png"
 
+//Rock House Image Imports
+import RHCabin1 from "./RockHouseImages/RHCabin1.jpg"
+import RHCabin2 from "./RockHouseImages/RHCabin2.jpg"
+import RHCabin3 from "./RockHouseImages/RHCabin3.jpg"
+import RHCabin4 from "./RockHouseImages/RHCabin4.jpg"
+import RHCabin5 from "./RockHouseImages/RHCabin5.jpg"
+import RHCabin6 from "./RockHouseImages/RHCabin6.jpg"
+import RHCabin7 from "./RockHouseImages/RhCabin7.jpg"
+import RHCabin8 from "./RockHouseImages/RHCabin8.jpg"
+import RHCabin9 from "./RockHouseImages/RHCabin9.jpg"
+import RHPatio from "./RockHouseImages/RHPatio.jpg"
+import RHPorch2 from "./RockHouseImages/RHPorch2.jpg"
+import RHRoom1 from "./RockHouseImages/RHRoom1.jpg"
+import RHRoom2 from "./RockHouseImages/RHRoom2.jpg"
+import RHRoom3 from "./RockHouseImages/RHRoom3.jpg"
+import RHWoodPost from "./RockHouseImages/RHWoodPost.jpg"
+
+
 
 const RockHousePage = () => {
+
+    const rockhouseimages = [
+        {
+            original: RHCabin9,
+            thumbnail: RHCabin9,
+        },
+        {
+            original: RHCabin1,
+            thumbnail: RHCabin1,
+        },
+        {
+            original: RHCabin2,
+            thumbnail: RHCabin2,
+        },
+        {
+            original: RHCabin3,
+            thumbnail: RHCabin3,
+        },
+        {
+            original: RHCabin4,
+            thumbnail: RHCabin4,
+        },
+        {
+            original: RHCabin5,
+            thumbnail: RHCabin5,
+        },
+        {
+            original: RHCabin6,
+            thumbnail: RHCabin6,
+        },
+        {
+            original: RHCabin7,
+            thumbnail: RHCabin7,
+        },
+        {
+            original: RHCabin8,
+            thumbnail: RHCabin8,
+        },
+        {
+            original: RHPatio,
+            thumbnail: RHPatio,
+        },
+        {
+            original: RHPorch2,
+            thumbnail: RHPorch2,
+        },
+        {
+            original: RHRoom1,
+            thumbnail: RHRoom1,
+        },
+        {
+            original: RHRoom2,
+            thumbnail: RHRoom2,
+        },
+        {
+            original: RHRoom3,
+            thumbnail: RHRoom3,
+        },
+        {
+            original: RHWoodPost,
+            thumbnail: RHWoodPost,
+        },
+    ]
 
     const rockhousemaps = [
         {
@@ -25,7 +106,7 @@ const RockHousePage = () => {
             <div className="ppchild propertynameandloc">
                 <h1 className = "decorated-title">Rock House</h1>
                 <p>San Isidro, Costa Rica</p>
-                <p>8.2 Hectares</p>
+                <p>2.5 Hectares</p>
             </div>
             <h2> Property Video </h2>            
                 <div className = "videocontainer ppchild" >
@@ -47,6 +128,15 @@ const RockHousePage = () => {
                             <p>There is a nice cabin on the property built a few years ago by the owner for a weekend retreat. The cabin could be used for a permanent residence or guest house if the new owner desired to build a new home. There are multiple building sites on the property with a great view of the cascading live water.</p>
                         </div>                    
                     </div>
+                </div>
+                <div>
+                <h2> Photo Gallery </h2>
+                <div className="ppchild">
+                    {/* <h3 className="imagechild"> Image Gallery </h3> */}
+                    <ImageGallery items={rockhouseimages}
+                    showPlayButton = {false}
+                    showFullscreenButton = {true}/> 
+                </div>
                 </div>
 
             <h2> Location Map </h2>
