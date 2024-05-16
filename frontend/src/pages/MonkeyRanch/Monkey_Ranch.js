@@ -383,6 +383,7 @@ const MonkeyRanchPage = () => {
                 <div className="ppchild propertynameandloc">
                     <h1 class="decorated-title">Monkey Ranch</h1>
                     <p>Dominicalito, Costa Rica</p>
+                    <p>35 Acres</p>
                 </div>
 
 
@@ -399,7 +400,7 @@ const MonkeyRanchPage = () => {
                     <div className="ppchild">
                         <div className="ppchild">
                             {/* <h3>Playa Pavones:</h3> */}
-                            <p>Nestled in the heart of the esteemed Escaleras neighborhood above Dominicalito Bay, Monkey Ranch unveils a rare 33-acre spectacle, boasting a mesmerizing blend of natural wonders. A sanctuary of creeks, streams, and a majestic 40-foot waterfall, this estate captivates with private swimming holes, pristine jungle, and panoramic ocean views that stretch far along the coast. The property's elevation on a 1,100’ ridgeline provides a refreshing ocean climate, creating an idyllic setting for a life of luxury in Costa Rica.  The estate includes 2 large luxury houses for a total of 12 bedrooms and a caretaker’s house. </p>
+                            <p>Nestled in the heart of the esteemed Escaleras neighborhood above Dominicalito Bay, Monkey Ranch unveils a rare 35-acre spectacle, boasting a mesmerizing blend of natural wonders. A sanctuary of creeks, streams, and a majestic 40-foot waterfall, this estate captivates with private swimming holes, pristine jungle, and panoramic ocean views that stretch far along the coast. The property's elevation on a 1,100’ ridgeline provides a refreshing ocean climate, creating an idyllic setting for a life of luxury in Costa Rica.  The estate includes 2 large luxury houses for a total of 12 bedrooms and a caretaker’s house. </p>
                             <br/>
                             <br/>
                             <p>A naturalist's paradise, Monkey Ranch invites owners and guests to revel in refreshing dips in natural pools, fishing in a spring fed tilapia pond , and exploring jungle trails.   A big portion of the property has been planted in fruit bearing trees and gardens.  Banana, papaya, coconut, starfruit, pineapple, orange, grapefruit just to name a few. </p>
@@ -411,7 +412,7 @@ const MonkeyRanchPage = () => {
                             <p>The second home (The Jungle House) was build on a peninsula with two spring fed creeks running right by the house.   The home has 7 bedrooms and is an excellent rental property. The jungle house also has a separate swimming pool and a swing bridge to cross over the creek.</p>
                             <br/>
                             <br/>
-                            <p>The estate's centerpiece is a 40-foot waterfall, cascading amidst 72 acres of lush rainforest, connected by streams that weave through the compound. Fully stocked tilapia  pond,  walking bridges, and internal trails offer a private nature sanctuary within the sought-after Escaleras community. The property's size is unparalleled, perched on a ridgeline with sweeping ocean views, and its strategic location provides cool coastal breezes during the day and refreshing mountain winds at night.   There are multiple more ocean view building sites on the property for future development. </p>
+                            <p>The estate's centerpiece is a 40-foot waterfall, cascading amidst 35 acres of lush rainforest, connected by streams that weave through the compound. Fully stocked tilapia  pond,  walking bridges, and internal trails offer a private nature sanctuary within the sought-after Escaleras community. The property's size is unparalleled, perched on a ridgeline with sweeping ocean views, and its strategic location provides cool coastal breezes during the day and refreshing mountain winds at night.   There are multiple more ocean view building sites on the property for future development. </p>
                             <br/>
                             <br/>
                             <p>Conveniently located 15 to 20 minutes from downtown Dominical, Monkey Ranch provides access to a laid-back community with organic markets, regional grocery stores, and diverse dining options. The surrounding area offers adventure and exploration, from deep-sea fishing in Quepos Marina to whale watching at Marino Ballena National Park. </p>
