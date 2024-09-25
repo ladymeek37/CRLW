@@ -3,45 +3,56 @@ import Monkey_Ranch from "./Monkey_Ranch.jpg"
 import ImageGallery from "react-image-gallery";
 
 //Monkey Ranch Photo Imports
-import DroneMR4 from "./BestofMonkeyRanch/DroneMR4.jpg"
-import DroneMR7 from "./BestofMonkeyRanch/DroneMR7.jpg"
-import DroneMR9 from "./BestofMonkeyRanch/DroneMR9.jpg"
-import DroneMR10 from "./BestofMonkeyRanch/DroneMR10.jpg"
-import Pool13 from "./BestofMonkeyRanch/Pool13.jpg"
-import Pool9MR from "./BestofMonkeyRanch/Pool9MR.jpg"
-import Pool7MR from "./BestofMonkeyRanch/Pool7MR.jpg"
-import Pool6MR from "./BestofMonkeyRanch/Pool6MR.jpg"
-import Pool5MR from "./BestofMonkeyRanch/Pool5MR.jpg"
-import Pool3MR from "./BestofMonkeyRanch/Pool3MR.jpg"
-import OceanViewFromPalapa2MR from "./BestofMonkeyRanch/OceanViewFromPalapa2MR.jpg"
-import DrivewayView1MR from "./BestofMonkeyRanch/DrivewayView1MR.jpg"
-import DrivewayView3MR from "./BestofMonkeyRanch/DrivewayView3MR.jpg"
-import DrivewayMR from "./BestofMonkeyRanch/DrivewayMR.jpg"
-import RockPathMR from "./BestofMonkeyRanch/RockPathMR.jpg"
-import BalconyMR from "./BestofMonkeyRanch/BalconyMR.jpg"
-import BackPorchViewMR from "./BestofMonkeyRanch/BackPorchViewMR.jpg"
-import BackPorch3MR from "./BestofMonkeyRanch/BackPorch3MR.jpg"
-import BackPorch2MR from "./BestofMonkeyRanch/BackPorch2MR.jpg"
-import DominicalitoMR from "./BestofMonkeyRanch/DominicalitoMR.jpg"
-import QueposViewMR from "./BestofMonkeyRanch/QueposViewMR.jpg"
-import PoolOceanViewMR2 from "./BestofMonkeyRanch/PoolOceanViewMR2.jpg"
-import PoolRockMR from "./BestofMonkeyRanch/PoolRockMR.jpg"
-import RockPillarMR from "./BestofMonkeyRanch/RockPillarMR.jpg"
-import RoofMR from "./BestofMonkeyRanch/RoofMR.jpg"
-import TableMR from "./BestofMonkeyRanch/TableMR.jpg"
-import SmoothieBar1MR from "./BestofMonkeyRanch/SmoothieBar1MR.jpg"
-import SmoothieBar3MR from "./BestofMonkeyRanch/SmoothieBar3MR.jpg"
-import UpstairsMasterView1MR from "./BestofMonkeyRanch/UpstairsMasterView1MR.jpg"
-import UpstairsMasterView2MR from "./BestofMonkeyRanch/UpstairsMasterView2MR.jpg"
-import UpstairsMasterView4MR from "./BestofMonkeyRanch/UpstairsMasterView4MR.jpg"
-import WoodenStairsMR from "./BestofMonkeyRanch/WoodenStairsMR.jpg"
-import MuralMR from "./BestofMonkeyRanch/MuralMR.jpg"
-import WallArt2MR from "./BestofMonkeyRanch/WallArt2MR.jpg"
-import WaterFountainMR from "./BestofMonkeyRanch/WaterFountainMR.jpg"
-import MRSunset1 from "./BestofJungleHouse/MRSunset1.JPG"
-import MRSunset2 from "./BestofJungleHouse/MRSunset2.JPG"
-import MRWaterfall1 from "./BestofJungleHouse/MRWaterfall1.JPG"
-import MRWaterfall2 from "./BestofJungleHouse/MRWaterfall2.JPG"
+import BackPorch2MR from "./NewBestofMonkeyRanch/BackPorch2MREdited.jpg"
+import BackPorch3MR from "./NewBestofMonkeyRanch/BackPorch3MREdited.jpg"
+import BackPorchView from "./NewBestofMonkeyRanch/BackPorchViewMREdited.jpg"
+import Balcony from "./NewBestofMonkeyRanch/BalconyMREdited.jpg"
+import Dominicalito from "./NewBestofMonkeyRanch/DominicalitoMREdited.jpg"
+import Driveway1 from "./NewBestofMonkeyRanch/DrivewayMREdited.jpg"
+import Driveway2 from "./NewBestofMonkeyRanch/DrivewayView1MREdited.jpg"
+import Driveway3 from "./NewBestofMonkeyRanch/DrivewayView3MREdited.jpg"
+import Drone1 from "./NewBestofMonkeyRanch/DroneMR4Edited.jpg"
+import Drone2 from "./NewBestofMonkeyRanch/DroneMR7Edited.jpg"
+import Drone3 from "./NewBestofMonkeyRanch/DroneMR9Edited.jpg"
+import Drone4 from "./NewBestofMonkeyRanch/DroneMR10Edited.jpg"
+import Drone5 from "./NewBestofMonkeyRanch/MonkeyRanchDrone5.jpg"
+import KitchenLight from "./NewBestofMonkeyRanch/KitchenLightMREdited.jpg"
+import LivingRoom from "./NewBestofMonkeyRanch/LivingroomPoolViewKarolMR.jpg"
+import KitchenView from "./NewBestofMonkeyRanch/MonkeyRanchKitchenView.jpg"
+import Mural from "./NewBestofMonkeyRanch/MuralMREdited.jpg"
+import NightLightHouse from "./NewBestofMonkeyRanch/NightLightKarolMR.jpg"
+import OceanView1 from "./NewBestofMonkeyRanch/OceanViewFromPalapa2MREdited.jpg"
+import Pool1 from "./NewBestofMonkeyRanch/Pool3MREdited.jpg"
+import Pool2 from "./NewBestofMonkeyRanch/Pool5MREdited.jpg"
+import Pool3 from "./NewBestofMonkeyRanch/Pool7MREdited.jpg"
+import Pool4 from "./NewBestofMonkeyRanch/Pool9MREdited.jpg"
+import PoolSunset from "./NewBestofMonkeyRanch/PoolAtSunsetKarolMR.jpg"
+import PoolOceanView from "./NewBestofMonkeyRanch/PoolOceanViewMR2Edited.jpg"
+import PoolRock from "./NewBestofMonkeyRanch/PoolRockMREdited.jpg"
+import QueposView from "./NewBestofMonkeyRanch/QueposViewMREdited.jpg"
+import RockPath from "./NewBestofMonkeyRanch/RockPathMREdited.jpg"
+import RockPillar from "./NewBestofMonkeyRanch/RockPillarMREdited.jpg"
+import Roof from "./NewBestofMonkeyRanch/RoofMREdited.jpg"
+import SmoothieBar1 from "./NewBestofMonkeyRanch/SmoothieBar1MREdited.jpg"
+import SmoothieBar3 from "./NewBestofMonkeyRanch/SmoothieBar3MREdited.jpg"
+import Sunset1 from "./NewBestofMonkeyRanch/SunsetMR1.jpeg"
+import Sunset2 from "./NewBestofMonkeyRanch/SunsetMR2.jpeg"
+import Table from "./NewBestofMonkeyRanch/TableMREdited.jpg"
+import UpperTerrace from "./NewBestofMonkeyRanch/UpperTerraceKarolMR.jpg"
+import UpperView from "./NewBestofMonkeyRanch/UpperViewKarolMR.jpg"
+import UpstairsMasterView1 from "./NewBestofMonkeyRanch/UpstairsMasterView1MREdited.jpg"
+import UpstairsMasterView2 from "./NewBestofMonkeyRanch/UpstairsMasterView2MREdited.jpg"
+import UpstairsMasterView3 from "./NewBestofMonkeyRanch/UpstairsMasterView4MREdited.jpg"
+import WallArt from "./NewBestofMonkeyRanch/WallArt2MREdited.jpg"
+import Waterfall1 from "./NewBestofMonkeyRanch/WaterFallMR1Edited.jpg"
+import Waterfall2 from "./NewBestofMonkeyRanch/WaterfallMR2Edited.jpg"
+import Waterfall3 from "./NewBestofMonkeyRanch/WaterFallMR3Edited.jpg"
+import Waterfall4 from "./NewBestofMonkeyRanch/WaterfallMR4Edited.jpg"
+import WaterFountain from "./NewBestofMonkeyRanch/WaterFountainMREdited.jpg"
+import WoodenStairs from "./NewBestofMonkeyRanch/WoodenStairsMREdited.jpg"
+
+
+
 
 // Jungle House Photo Imports
 import JungleHouse1 from "./BestofJungleHouse/JungleHouse1.JPG"
@@ -86,161 +97,191 @@ const MonkeyRanchPage = () => {
 
     const images = [
         {
-            original: DroneMR10,
-            thumbnail: DroneMR10, 
+            original: Drone4,
+            thumbnail: Drone4, 
         },
         {
-            original: DroneMR4,
-            thumbnail: DroneMR10, 
+            original: Drone1,
+            thumbnail: Drone1, 
         },
         {
-            original: DroneMR7,
-            thumbnail: DroneMR10, 
+            original: Drone2,
+            thumbnail: Drone2, 
         },
         {
-            original: DroneMR9,
-            thumbnail: DroneMR10, 
+            original: Drone5,
+            thumbnail: Drone5, 
         },
         {
-            original: Pool13,
-            thumbnail: Pool13, 
+            original: NightLightHouse,
+            thumbnail: NightLightHouse, 
         },
         {
-            original: Pool9MR,
-            thumbnail: Pool9MR, 
+            original: PoolSunset,
+            thumbnail: PoolSunset, 
         },
         {
-            original: Pool7MR,
-            thumbnail: Pool7MR, 
+            original: Pool1,
+            thumbnail: Pool1, 
         },
         {
-            original: Pool6MR,
-            thumbnail: Pool6MR, 
+            original: Pool2,
+            thumbnail: Pool2, 
         },
         {
-            original: Pool5MR,
-            thumbnail: Pool5MR, 
+            original: BackPorchView,
+            thumbnail: BackPorchView, 
         },
         {
-            original: Pool3MR,
-            thumbnail: Pool3MR, 
+            original: PoolRock,
+            thumbnail: PoolRock, 
         },
         {
-            original: OceanViewFromPalapa2MR,
-            thumbnail: OceanViewFromPalapa2MR, 
+            original: Pool3,
+            thumbnail: Pool3, 
         },
         {
-            original: DrivewayView1MR,
-            thumbnail: DrivewayView1MR, 
+            original: Pool4,
+            thumbnail: Pool4, 
         },
         {
-            original: DrivewayView3MR,
-            thumbnail: DrivewayView3MR, 
-        },
-        {
-            original: DrivewayMR,
-            thumbnail: DrivewayMR, 
-        },
-        {
-            original: RockPathMR,
-            thumbnail: RockPathMR, 
-        },
-        {
-            original: BalconyMR,
-            thumbnail: BalconyMR, 
-        },
-        {
-            original: BackPorchViewMR,
-            thumbnail: BackPorchViewMR, 
+            original: PoolOceanView,
+            thumbnail: PoolOceanView, 
         },
         {
             original: BackPorch2MR,
             thumbnail: BackPorch2MR, 
         },
         {
+            original: Table,
+            thumbnail: Table, 
+        },
+        {
             original: BackPorch3MR,
             thumbnail: BackPorch3MR, 
         },
         {
-            original: DominicalitoMR,
-            thumbnail: DominicalitoMR, 
+            original: UpstairsMasterView1,
+            thumbnail: UpstairsMasterView1, 
         },
         {
-            original: QueposViewMR,
-            thumbnail: QueposViewMR, 
+            original: UpstairsMasterView2,
+            thumbnail: UpstairsMasterView2, 
         },
         {
-            original: PoolOceanViewMR2,
-            thumbnail: PoolOceanViewMR2, 
+            original: UpstairsMasterView3,
+            thumbnail: UpstairsMasterView3, 
         },
         {
-            original: PoolRockMR,
-            thumbnail: PoolRockMR, 
+            original: UpperView,
+            thumbnail: UpperView, 
         },
         {
-            original: RockPillarMR,
-            thumbnail: RockPillarMR, 
+            original: Balcony,
+            thumbnail: Balcony, 
         },
         {
-            original: RoofMR,
-            thumbnail: RoofMR, 
+            original: Roof,
+            thumbnail: Roof, 
         },
         {
-            original: TableMR,
-            thumbnail: TableMR, 
+            original: UpperTerrace,
+            thumbnail: UpperTerrace, 
         },
         {
-            original: SmoothieBar1MR,
-            thumbnail: SmoothieBar1MR, 
+            original: Drone3,
+            thumbnail: Drone3, 
         },
         {
-            original: SmoothieBar3MR,
-            thumbnail: SmoothieBar3MR, 
+            original: Dominicalito,
+            thumbnail: Dominicalito, 
         },
         {
-            original: UpstairsMasterView1MR,
-            thumbnail: UpstairsMasterView1MR, 
+            original: QueposView,
+            thumbnail: QueposView, 
         },
         {
-            original: UpstairsMasterView2MR,
-            thumbnail: UpstairsMasterView2MR, 
+            original: OceanView1,
+            thumbnail: OceanView1, 
         },
         {
-            original: UpstairsMasterView4MR,
-            thumbnail: UpstairsMasterView4MR, 
+            original: KitchenView,
+            thumbnail: KitchenView, 
         },
         {
-            original: WoodenStairsMR,
-            thumbnail: WoodenStairsMR, 
+            original: Mural,
+            thumbnail: Mural, 
         },
         {
-            original: MuralMR,
-            thumbnail: MuralMR, 
-        },        
-        {
-            original: WallArt2MR,
-            thumbnail: WallArt2MR, 
+            original: KitchenLight,
+            thumbnail: KitchenLight, 
         },
         {
-            original: WaterFountainMR,
-            thumbnail: WaterFountainMR, 
+            original: LivingRoom,
+            thumbnail: LivingRoom, 
         },
         {
-            original: MRSunset1,
-            thumbnail: MRSunset1, 
+            original: WallArt,
+            thumbnail: WallArt, 
         },
         {
-            original: MRSunset2,
-            thumbnail: MRSunset2, 
-        },        
-        {
-            original: MRWaterfall1,
-            thumbnail: MRWaterfall1, 
+            original: WoodenStairs,
+            thumbnail: WoodenStairs, 
         },
         {
-            original: MRWaterfall2,
-            thumbnail: MRWaterfall2, 
+            original: Driveway2,
+            thumbnail: Driveway2, 
         },
+        {
+            original: Driveway3,
+            thumbnail: Driveway3, 
+        },
+        {
+            original: Driveway1,
+            thumbnail: Driveway1, 
+        },
+        {
+            original: RockPath,
+            thumbnail: RockPath, 
+        },
+        {
+            original: SmoothieBar1,
+            thumbnail: SmoothieBar1, 
+        },
+        {
+            original: SmoothieBar3,
+            thumbnail: SmoothieBar3, 
+        },
+        {
+            original: RockPillar,
+            thumbnail: RockPillar, 
+        },
+        {
+            original: WaterFountain,
+            thumbnail: WaterFountain, 
+        },
+
+        {
+            original: Sunset1,
+            thumbnail: Sunset1, 
+        },
+        {
+            original: Sunset2,
+            thumbnail: Sunset2, 
+        },
+        {
+            original: Waterfall1,
+            thumbnail: Waterfall1, 
+        },
+        {
+            original: Waterfall2,
+            thumbnail: Waterfall2, 
+        },
+        {
+            original: Waterfall3,
+            thumbnail: Waterfall3, 
+        },
+
 
     ];
     const junglehouseimages = [
@@ -383,7 +424,7 @@ const MonkeyRanchPage = () => {
                 <div className="ppchild propertynameandloc">
                     <h1 class="decorated-title">Monkey Ranch</h1>
                     <p>Dominicalito, Costa Rica</p>
-                    <p>35 Acres</p>
+                    {/* <p>35 Acres</p> */}
                 </div>
 
 
@@ -400,25 +441,22 @@ const MonkeyRanchPage = () => {
                     <div className="ppchild">
                         <div className="ppchild">
                             {/* <h3>Playa Pavones:</h3> */}
-                            <p>Nestled in the heart of the esteemed Escaleras neighborhood above Dominicalito Bay, Monkey Ranch unveils a rare 35-acre spectacle, boasting a mesmerizing blend of natural wonders. A sanctuary of creeks, streams, and a majestic 40-foot waterfall, this estate captivates with private swimming holes, pristine jungle, and panoramic ocean views that stretch far along the coast. The property's elevation on a 1,100’ ridgeline provides a refreshing ocean climate, creating an idyllic setting for a life of luxury in Costa Rica.  The estate includes 2 large luxury houses for a total of 12 bedrooms and a caretaker’s house. </p>
+                            <p>Perched in the prestigious Escaleras neighborhood, high above the serene Dominicalito Bay, The Monkey Ranch presents a truly rare offering: a breathtaking 35-acre estate blending untouched natural splendor with refined luxury. Enveloped by pristine jungle, the property showcases stunning ocean views, peaceful creeks, and an awe-inspiring 40-foot waterfall that flows into private swimming holes, all creating a tranquil escape. At an elevation of 1,100 feet, the property enjoys cooling ocean breezes and a perfect year-round climate—setting the stage for an opulent Costa Rican lifestyle.</p>                             
                             <br/>
                             <br/>
-                            <p>A naturalist's paradise, Monkey Ranch invites owners and guests to revel in refreshing dips in natural pools, fishing in a spring fed tilapia pond , and exploring jungle trails.   A big portion of the property has been planted in fruit bearing trees and gardens.  Banana, papaya, coconut, starfruit, pineapple, orange, grapefruit just to name a few. </p>
+                            <p>This estate features two expansive luxury residences with a total of 12 bedrooms, along with a dedicated caretaker’s house. The Monkey Ranch grounds boast an extraordinary landscape, inviting guests to enjoy natural pools, a spring-fed tilapia pond, and lush jungle trails. The estate is home to abundant fruit trees and gardens, offering a bounty of tropical favorites such as banana, papaya, coconut, starfruit, pineapple, orange, and grapefruit. </p>
                             <br/>
                             <br/>
-                            <p>The main home was completed in 2016 and consists of 8,000+ square feet of luxury living.   The home has 5 bedrooms including three master suites.   A giant infinity swimming pool fronts on 80% of the house.   Lots of extra amenities in this home include all wood ceilings, stone floors, teak decks, solar hot water, and a great room with 30’ cathedral ceilings.   The home was built with extreme durable materials to stand up to the rainforest climate.  Hand-carved wooden finishes adorn the interior, showcasing custom 3D artwork depicting local wildlife. The open flow between living spaces and outdoor dining areas emphasizes the property's natural rainforest setting. Monkey Ranch seamlessly marries indoor and outdoor entertaining, with shaded lounge areas, a grilling station, covered smoker, walk-up pool bar, and yoga palapa platform overlooking the Pacific.</p>
+                            <p>Completed in 2016, the primary residence spans over 8,000 square feet of exquisite design, with 5 bedrooms including three master suites. A vast infinity pool wraps around 80% of the home, inviting residents to relax amidst breathtaking ocean vistas. Crafted with durable, rainforest-friendly materials, the home’s interior features soaring 30-foot cathedral ceilings, teak decks, and hand-carved wooden accents that celebrate Costa Rican wildlife. The open-concept layout seamlessly connects indoor and outdoor living, with expansive teak decks, covered lounge areas, a grill station, pool bar, and a yoga platform with sweeping Pacific views.</p>
                             <br/>
-                            <br/>
-                            <p>The second home (The Jungle House) was build on a peninsula with two spring fed creeks running right by the house.   The home has 7 bedrooms and is an excellent rental property. The jungle house also has a separate swimming pool and a swing bridge to cross over the creek.</p>
-                            <br/>
-                            <br/>
-                            <p>The estate's centerpiece is a 40-foot waterfall, cascading amidst 35 acres of lush rainforest, connected by streams that weave through the compound. Fully stocked tilapia  pond,  walking bridges, and internal trails offer a private nature sanctuary within the sought-after Escaleras community. The property's size is unparalleled, perched on a ridgeline with sweeping ocean views, and its strategic location provides cool coastal breezes during the day and refreshing mountain winds at night.   There are multiple more ocean view building sites on the property for future development. </p>
-                            <br/>
-                            <br/>
-                            <p>Conveniently located 15 to 20 minutes from downtown Dominical, Monkey Ranch provides access to a laid-back community with organic markets, regional grocery stores, and diverse dining options. The surrounding area offers adventure and exploration, from deep-sea fishing in Quepos Marina to whale watching at Marino Ballena National Park. </p>
-                            <br/>
-                            <br/>
-                            <p> For those seeking a unique luxury experience on Costa Rica's South Pacific Coast, Monkey Ranch stands as a testament to opulence, seamlessly blending natural beauty with modern elegance. To truly grasp the magnitude of this extraordinary estate, a personal showing is a must on your Dominical luxury home tour. Welcome to a lifestyle where unparalleled luxury meets the untamed beauty of the rainforest at Monkey Ranch. </p>
+                    </div>                    
+                    </div>
+                </div>
+                <div>
+                    <h2> Nature Lover's Dream </h2>
+                    <div className="ppchild">
+                        <div className="ppchild">
+                            <p>The estate’s crown jewel is a 40-foot waterfall, cascading into natural pools that wind through the lush rainforest. Explore the extensive private trails, cross walking bridges, or enjoy fishing in the stocked tilapia pond. With multiple ocean-view building sites available for future development, the property offers boundless potential for expansion. Located just 15-20 minutes from the vibrant town of Dominical, The Monkey Ranch offers convenient access to the area’s organic markets, regional grocery stores, and an array of dining options. Adventure seekers will relish proximity to world-class deep-sea fishing, whale watching at Marino Ballena National Park, and the marina at nearby Quepos. For those who desire a unique and luxurious retreat on Costa Rica’s South Pacific coast, the Monkey Ranch is a testament to both opulence and natural beauty. This exclusive estate must be experienced in person to fully appreciate its grandeur. Welcome to The Monkey Ranch , where the untamed splendor of the rainforest meets sophisticated living. --- This refined version highlights the property’s natural assets while emphasizing luxury, exclusivity, and potential for future development.</p>
                         </div>                    
                     </div>
                 </div>
@@ -448,13 +486,13 @@ const MonkeyRanchPage = () => {
               
                 </div>
 
-                <h2>  Surverys & Maps  </h2>            
+                {/* <h2>  Surverys & Maps  </h2>            
                 <div className="ppchild">
                     <ImageGallery items={maps}
                     showPlayButton = {false}
                     showFullscreenButton = {true}
                     style={{ width: '200px', height: 'auto' }}/> 
-                </div>
+                </div> */}
 
                 <div className="ppchild propertynameandloc">
                     <h1 class="decorated-title secondtitle">Jungle House</h1>
@@ -472,7 +510,7 @@ const MonkeyRanchPage = () => {
                     <h2> About </h2>
                     <div className="ppchild">
                         <div className="ppchild">
-                            <p>Beautiful and spacious private home in the heart of the Costa Rican rainforest. Surrounded by two creeks that merge into one in the back yard. Including a pool, outdoor barbeque area, partial AC, patio, multiple balconies, hammocks, window ocean view, fully stocked kitchen, safe box, and lots of monkeys and wildlife. Only a 10 minute drive to the beach.</p>
+                            <p>Nestled on its own peninsula between two spring-fed creeks, the second home called “The Jungle House”, features 7 bedrooms, making it an ideal rental property. It boasts its own private swimming pool and a charming swing bridge that crosses over the creek, adding a whimsical touch to the jungle retreat. Both homes offer unmatched privacy and luxury while integrating with the surrounding wilderness. </p>
                         </div>                    
                     </div>
                 </div>
