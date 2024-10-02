@@ -514,6 +514,16 @@ const MonkeyRanchPage = () => {
                         </div>                    
                     </div>
                 </div>
+                <div>
+                    <h2> Listing Agent </h2>
+                    <div className="ppchild">
+                        <div className="ppchild">
+                            <p><strong>Karol Barboza</strong></p>
+                            <p>Email: karol@tropical-investments.com</p>
+                            <p>Phone: +506 88337895</p>
+                        </div>                    
+                    </div>
+                </div>
 
 
 
