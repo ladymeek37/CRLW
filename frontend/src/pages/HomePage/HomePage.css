@@ -8,17 +8,11 @@ and (max-device-width: 420px) {
         height: 10rem !important;
     }
     .hptitle{
-        font-size: 2rem !important;
-    }
-    .hplocation{
-        font-size: .5rem !important;
+        font-size: 1rem !important;
     }
     .hpchild{
         padding: 1.5rem !important;
         margin: 2rem !important;
-    }
-    .hpcontainer{
-        margin-top: 0.5rem !important;
     }
 
 }
@@ -36,7 +30,7 @@ and (max-device-width: 420px) {
     font-family: IBM Plex Sans, sans-serif;
     font-size: 1.6rem;
     position: relative;
-    top: 1rem;
+    top: 0.8rem;
     text-transform: capitalize;
     font-weight: 700;
     color: #353535;
