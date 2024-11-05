@@ -77,8 +77,8 @@ return (
               <div >
                 <img className = "thumbnailimage" src={MonkeyRanchThumbnail} alt= {"Monkey Ranch Thumbnail"}/>
                 <div className="titlecontainer">
-                  <p className = "hptitle titlechild">Monkey Ranch</p>
-                  <p className = "hplocation titlechild">Dominicalito, Costa Rica</p>                  
+                  <p className = "hptitle titlechild">MONKEY RANCH</p>
+                  {/* <p className = "hplocation titlechild">Dominicalito, Costa Rica</p>                   */}
                 </div>
               </div>
             </Link>
@@ -89,8 +89,8 @@ return (
               <div >
                 <img className = "thumbnailimage" src={LaOndaThumbnail} alt={"La Onda Thumbnail"} />
                 <div className="titlecontainer">
-                  <p className = "hptitle titlechild">La Onda</p>
-                  <p className = "hplocation titlechild">Playa Pavones, Costa Rica</p>                  
+                  <p className = "hptitle titlechild">LA ONDA</p>
+                  {/* <p className = "hplocation titlechild">Playa Pavones, Costa Rica</p>                   */}
                 </div>
               </div>
             </Link>
@@ -101,8 +101,8 @@ return (
               <div >
                 <img className = "thumbnailimage" src={BuenosAiresThumbnail} alt={"Buenos Aires Thumbnail"} />
                 <div className="titlecontainer">
-                  <p className = "hptitle titlechild">Buenos Aires</p>
-                  <p className = "hplocation titlechild">San Isidro, Costa Rica</p>                  
+                  <p className = "hptitle titlechild">BUENOS AIRES</p>
+                  {/* <p className = "hplocation titlechild">San Isidro, Costa Rica</p>                   */}
                 </div>
               </div>
             </Link>
@@ -113,8 +113,8 @@ return (
               <div >
                 <img className = "thumbnailimage" src={HermosaLotThumbnail} alt={"Hermosa Lot Thumbnail"} />
                 <div className="titlecontainer">
-                  <p className = "hptitle titlechild">Hermosa Lot</p>
-                  <p className = "hplocation titlechild">Playa Hermosa, Costa Rica</p>                  
+                  <p className = "hptitle titlechild">HERMOSA LOT</p>
+                  {/* <p className = "hplocation titlechild">Playa Hermosa, Costa Rica</p>                   */}
                 </div>
               </div>
             </Link>
@@ -125,8 +125,8 @@ return (
               <div >
                 <img className = "thumbnailimage" src={RockHouseThumbnail} alt={"Rock House Thumbnail"} />
                 <div className="titlecontainer">
-                  <p className = "hptitle titlechild">Rock House</p>
-                  <p className = "hplocation titlechild">San Isidro, Costa Rica</p>                  
+                  <p className = "hptitle titlechild">ROCK HOUSE</p>
+                  {/* <p className = "hplocation titlechild">San Isidro, Costa Rica</p>                   */}
                 </div>
               </div>
             </Link>
@@ -137,8 +137,8 @@ return (
               <div >
                 <img className = "thumbnailimage" src={DomiFarmThumbnail} alt={"Domi Farm Thumbnail"} />
                 <div className="titlecontainer">
-                  <p className = "hptitle titlechild">Domi Farm</p>
-                  <p className = "hplocation titlechild">Dominical, Costa Rica</p>                  
+                  <p className = "hptitle titlechild">DOMI FARM</p>
+                  {/* <p className = "hplocation titlechild">Dominical, Costa Rica</p>                   */}
                 </div>
               </div>
             </Link>
