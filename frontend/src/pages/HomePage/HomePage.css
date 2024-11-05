@@ -49,7 +49,7 @@ and (max-device-width: 420px) {
 }
 
 .hpcontainer{
-    margin-top: 2rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -82,3 +82,8 @@ and (max-device-width: 420px) {
 .homepagebody{
     background-color: #F7F7F7;
 }
+.homepagebody .navbar {
+    background-color: #f7f7f7; /* Set the navbar background color for this page only */
+}
+
+
