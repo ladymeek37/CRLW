@@ -1,71 +1,60 @@
-@media only screen 
-and (min-device-height: 350px) 
-and (max-device-width: 420px)  {
-
-  .navBar{
-    height: auto 
-  }
-  .navBar button{
-    position: relative;
-    right: -2rem;
-    border: 1px solid white !important;
-    font-size: x-small !important;
-}  
-  .title{
-    font-size: 1.8rem !important;
- 
-    position: relative;
-    top: 5rem;
-  }
-  .bottom{
-    margin-bottom: 70px !important;
-  }
-
-}
 
 ul {
-  display: flex;
   justify-content: space-between;
   list-style-type: none;
 }
 
-li {
-  font-size: 1.25rem;
-}
 
 .navBar {
   color: white;
   /* margin-bottom: 2rem; */
   padding: 1.5rem 2rem;
-  background-image: url("./images/smallnavphoto.jpg"); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   height: auto; 
   margin-bottom: 2rem;
-  box-shadow: -5px 10px 27px 0px rgba(25, 25, 25, 0.22);
 }
 
 
-.title{
-  font-family: 'Ms Madi', cursive;
-  font-size: 4rem;
+/* Center Title with Flexbox */
+.title-container {
+  display: grid;
+  justify-content: center; /* Center title content */
+  align-items: center;
+  position: relative;
+  bottom: 20px;
+}
+
+
+.title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  letter-spacing: .7rem;
+  color: #353535;
+}
+
+.little-title{
+  font-size: .7rem;
+  letter-spacing: .07rem;
 }
 
 .navBar button {
+
   background: transparent;
-  border: 2px solid white;
-  color: white;
+  border: 0px solid rgb(0, 0, 0);
+  color: #353535;
   padding: 0.4rem 0.5rem;
-  margin-top: 100px;
-  margin-right: 32px;
-  font-family: Kohinoor Telugu;
-  
+  text-transform: uppercase;
+  position: absolute;
+  top: 65px;
+  right: 69px;
+  font-family: 'IBM PLEX SANS' !important
 }
+  
+
 
 .navBar button:hover {
   background: white;
-  color: rgb(87, 149, 212);
+  color: rgb(110, 110, 110);
   cursor: pointer;
 }
 
@@ -74,6 +63,24 @@ li {
   font-size: 2rem;
 }
 
-/* .bottom{
-  padding-bottom: 30rem;
-} */
+@media (max-width: 35em){
+  .title{
+    font-size: 3rem;
+  }
+  .little-title{
+    font-size: .7rem;
+    letter-spacing: normal;
+  }
+  .navBar button {
+    font-size: .5rem;
+    top: 23px;
+    right: 30px;
+  }
+  .title-container {
+    bottom: 0px;
+  }
+  .navBar{
+    margin-bottom: 0rem;
+  }
+  
+}

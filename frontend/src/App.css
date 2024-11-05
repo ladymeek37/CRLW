@@ -8,29 +8,31 @@
   box-sizing: inherit;
 }
 
+body{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
 html {
   box-sizing: border-box;
 }
 
 p {
   font-size: 30px;
-  font-family: Kohinoor Telugu;
+  line-height: 1.5;
 }
 
 div {
-  font-family: Malayalam MN;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
-h1{
-  font-family: Kohinoor Telugu;
-}
+
 button {
   background-color: transparent;
   border: 2px solid rgb(68, 68, 68);
   color: rgb(75, 77, 80);
   font-size: 1rem;
-  font-family: Kohinoor Telugu;
   max-width: 100px;
   padding: 0.5rem 0.5rem;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 button:hover {

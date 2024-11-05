@@ -413,28 +413,21 @@ const MonkeyRanchPage = () => {
 
     return ( 
             <html>
-            <head>
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet" />
-            </head>
+                <head>
+                    <link rel="preconnect" href="https://fonts.googleapis.com" />
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+                </head>
             <body>
-            <div className = "ppcontainer">
-    
-                <div className="ppchild propertynameandloc">
-                    <h1 class="decorated-title">Monkey Ranch</h1>
-                    <p>Dominicalito, Costa Rica</p>
+                <div>
+                    <div className="ppchild mrpropertynameandloc mrthumbnail" >
+                    <h1 class="p-name">Monkey Ranch</h1>
+                    <p class="p-location">Dominicalito, Costa Rica</p>
                     {/* <p>35 Acres</p> */}
+                    </div>
                 </div>
 
-
-                <h2> Photo Gallery </h2>
-                <div className="ppchild">
-                    {/* <h3 className="imagechild"> Image Gallery </h3> */}
-                    <ImageGallery items={images}
-                    showPlayButton = {false}
-                    showFullscreenButton = {true}/> 
-                </div> 
+            <div className = "ppcontainer">
 
                 <div>
                     <h2> About </h2>
@@ -452,8 +445,19 @@ const MonkeyRanchPage = () => {
                     </div>                    
                     </div>
                 </div>
+
+
+                <h2> Photo Gallery </h2>
+                <div className="ppchild">
+                    {/* <h3 className="imagechild"> Image Gallery </h3> */}
+                    <ImageGallery items={images}
+                    showPlayButton = {false}
+                    showFullscreenButton = {true}/> 
+                </div> 
+
+
                 <div>
-                    <h2> Nature Lover's Dream </h2>
+                    <h2> "Nature Lover's Dream" </h2>
                     <div className="ppchild">
                         <div className="ppchild">
                             <p>The estate’s crown jewel is a 40-foot waterfall, cascading into natural pools that wind through the lush rainforest. Explore the extensive private trails, cross walking bridges, or enjoy fishing in the stocked tilapia pond. With multiple ocean-view building sites available for future development, the property offers boundless potential for expansion. Located just 15-20 minutes from the vibrant town of Dominical, The Monkey Ranch offers convenient access to the area’s organic markets, regional grocery stores, and an array of dining options. Adventure seekers will relish proximity to world-class deep-sea fishing, whale watching at Marino Ballena National Park, and the marina at nearby Quepos. For those who desire a unique and luxurious retreat on Costa Rica’s South Pacific coast, the Monkey Ranch is a testament to both opulence and natural beauty. This exclusive estate must be experienced in person to fully appreciate its grandeur. Welcome to The Monkey Ranch , where the untamed splendor of the rainforest meets sophisticated living. --- This refined version highlights the property’s natural assets while emphasizing luxury, exclusivity, and potential for future development.</p>
@@ -493,10 +497,22 @@ const MonkeyRanchPage = () => {
                     showFullscreenButton = {true}
                     style={{ width: '200px', height: 'auto' }}/> 
                 </div> */}
+                </div>
 
-                <div className="ppchild propertynameandloc">
-                    <h1 class="decorated-title secondtitle">Jungle House</h1>
-                    <p>Located on the Monkey Ranch</p>
+                <div className="ppchild mrpropertynameandloc jhthumbnail">
+                    <h1 class="p-name">Jungle House</h1>
+                    <p class="p-location">Located on the Monkey Ranch</p>
+                </div>
+
+                <div className = "ppcontainer">
+
+                <div>
+                    <h2> About </h2>
+                    <div className="ppchild">
+                        <div className="ppchild">
+                            <p>Nestled on its own peninsula between two spring-fed creeks, the second home called “The Jungle House”, features 7 bedrooms, making it an ideal rental property. It boasts its own private swimming pool and a charming swing bridge that crosses over the creek, adding a whimsical touch to the jungle retreat. Both homes offer unmatched privacy and luxury while integrating with the surrounding wilderness. </p>
+                        </div>                    
+                    </div>
                 </div>
 
                 <h2> Photo Gallery </h2>
@@ -506,14 +522,7 @@ const MonkeyRanchPage = () => {
                     showPlayButton = {false}
                     showFullscreenButton = {true}/> 
                 </div>
-                <div>
-                    <h2> About </h2>
-                    <div className="ppchild">
-                        <div className="ppchild">
-                            <p>Nestled on its own peninsula between two spring-fed creeks, the second home called “The Jungle House”, features 7 bedrooms, making it an ideal rental property. It boasts its own private swimming pool and a charming swing bridge that crosses over the creek, adding a whimsical touch to the jungle retreat. Both homes offer unmatched privacy and luxury while integrating with the surrounding wilderness. </p>
-                        </div>                    
-                    </div>
-                </div>
+                
                 <div>
                     <h2> Listing Agent </h2>
                     <div className="ppchild">
@@ -524,11 +533,6 @@ const MonkeyRanchPage = () => {
                         </div>                    
                     </div>
                 </div>
-
-
-
-                     
-
                 </div>
             </body>
             </html>

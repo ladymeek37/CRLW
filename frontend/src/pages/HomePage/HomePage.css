@@ -23,13 +23,17 @@ and (max-device-width: 420px) {
 
 }
 
+.body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
 .allpropertiestxt{
     font-size: 2rem;
 }
 
 
 .hptitle{
-    font-family: 'Ms Madi', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 3rem;
     position: relative;
     top: 1rem;
