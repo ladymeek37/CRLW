@@ -428,8 +428,6 @@ const MonkeyRanchPage = () => {
                 </div>
 
             <div className = "ppcontainer">
-
-                <div>
                     <h2> About </h2>
                     <div className="ppchild">
                         <div className="ppchild">
@@ -442,18 +440,19 @@ const MonkeyRanchPage = () => {
                             <br/>
                             <p>Completed in 2016, the primary residence spans over 8,000 square feet of exquisite design, with 5 bedrooms including three master suites. A vast infinity pool wraps around 80% of the home, inviting residents to relax amidst breathtaking ocean vistas. Crafted with durable, rainforest-friendly materials, the home’s interior features soaring 30-foot cathedral ceilings, teak decks, and hand-carved wooden accents that celebrate Costa Rican wildlife. The open-concept layout seamlessly connects indoor and outdoor living, with expansive teak decks, covered lounge areas, a grill station, pool bar, and a yoga platform with sweeping Pacific views.</p>
                             <br/>
-                    </div>                    
+                        </div>
+                        <div className="lineunderelement"></div>                    
                     </div>
-                </div>
-
-
-                <h2> Photo Gallery </h2>
-                <div className="ppchild">
-                    {/* <h3 className="imagechild"> Image Gallery </h3> */}
-                    <ImageGallery items={images}
-                    showPlayButton = {false}
-                    showFullscreenButton = {true}/> 
-                </div> 
+                    <h2> Photo Gallery </h2>
+                    <div className="ppchild">
+                        <div className="ppchild">
+                            {/* <h3 className="imagechild"> Image Gallery </h3> */}
+                            <ImageGallery items={images}
+                            showPlayButton = {false}
+                            showFullscreenButton = {true}/> 
+                        </div>
+                        <div className="lineunderelement"></div>      
+                    </div>
 
 
                 <div>
@@ -461,33 +460,36 @@ const MonkeyRanchPage = () => {
                     <div className="ppchild">
                         <div className="ppchild">
                             <p>The estate’s crown jewel is a 40-foot waterfall, cascading into natural pools that wind through the lush rainforest. Explore the extensive private trails, cross walking bridges, or enjoy fishing in the stocked tilapia pond. With multiple ocean-view building sites available for future development, the property offers boundless potential for expansion. Located just 15-20 minutes from the vibrant town of Dominical, The Monkey Ranch offers convenient access to the area’s organic markets, regional grocery stores, and an array of dining options. Adventure seekers will relish proximity to world-class deep-sea fishing, whale watching at Marino Ballena National Park, and the marina at nearby Quepos. For those who desire a unique and luxurious retreat on Costa Rica’s South Pacific coast, the Monkey Ranch is a testament to both opulence and natural beauty. This exclusive estate must be experienced in person to fully appreciate its grandeur. Welcome to The Monkey Ranch , where the untamed splendor of the rainforest meets sophisticated living. --- This refined version highlights the property’s natural assets while emphasizing luxury, exclusivity, and potential for future development.</p>
-                        </div>                    
+                        </div> 
+                        <div className="lineunderelement"></div>                  
                     </div>
                 </div>
 
                 <h2> Location Map </h2>
                 <div className="ppchild">
-                    <iframe className= "googlemap" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1061.4487667047285!2d-83.82168873041323!3d9.232779999427308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwMTMnNTguMCJOIDgzwrA0OScxNS44Ilc!5e1!3m2!1sen!2sus!4v1703205205656!5m2!1sen!2sus" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div className="ppchild">
+                        <iframe className= "googlemap" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1061.4487667047285!2d-83.82168873041323!3d9.232779999427308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwMTMnNTguMCJOIDgzwrA0OScxNS44Ilc!5e1!3m2!1sen!2sus!4v1703205205656!5m2!1sen!2sus" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div className="lineunderelement"></div>
                 </div>
                 {/* width="900" height="600"*/}
 
                 {/* <img className = "ppchild" src={La_Onda} width="900" height="700"/> */}
                     <h2> Video Gallery </h2>            
                 <div className = "videocontainer ppchild" >
-                    <iframe className="vcchild"
-                        src={`https://www.youtube.com/embed/diGzI4BCFD0`}
-                        frameborder="0" allowFullScreen
-                        width="600" height="350"
-                        >
-                    </iframe>  
+                        <iframe className="vcchild"
+                            src={`https://www.youtube.com/embed/diGzI4BCFD0`}
+                            frameborder="0" allowFullScreen
+                            width="600" height="350"
+                            >
+                        </iframe>  
 
-                    <iframe className="vcchild"
-                        src={`https://www.youtube.com/embed/FVJ1hiRSxgk`}
-                        frameborder="0" allowFullScreen
-                        width="600" height="350"
-                        >
-                    </iframe>
-              
+                        <iframe className="vcchild"
+                            src={`https://www.youtube.com/embed/FVJ1hiRSxgk`}
+                            frameborder="0" allowFullScreen
+                            width="600" height="350"
+                            >
+                        </iframe>
                 </div>
 
                 {/* <h2>  Surverys & Maps  </h2>            
@@ -499,7 +501,7 @@ const MonkeyRanchPage = () => {
                 </div> */}
                 </div>
 
-                <div className="ppchild mrpropertynameandloc jhthumbnail">
+                <div className="ppchild mrpropertynameandloc jhthumbnail ">
                     <h1 class="p-name">Jungle House</h1>
                     <p class="p-location">Located on the Monkey Ranch</p>
                 </div>
@@ -511,26 +513,31 @@ const MonkeyRanchPage = () => {
                     <div className="ppchild">
                         <div className="ppchild">
                             <p>Nestled on its own peninsula between two spring-fed creeks, the second home called “The Jungle House”, features 7 bedrooms, making it an ideal rental property. It boasts its own private swimming pool and a charming swing bridge that crosses over the creek, adding a whimsical touch to the jungle retreat. Both homes offer unmatched privacy and luxury while integrating with the surrounding wilderness. </p>
-                        </div>                    
+                        </div>
+                        <div className="lineunderelement"></div>                    
                     </div>
                 </div>
 
                 <h2> Photo Gallery </h2>
                 <div className="ppchild">
                     {/* <h3 className="imagechild"> Image Gallery </h3> */}
-                    <ImageGallery items={junglehouseimages}
-                    showPlayButton = {false}
-                    showFullscreenButton = {true}/> 
+                    <div className="ppchild">
+                        <ImageGallery items={junglehouseimages}
+                        showPlayButton = {false}
+                        showFullscreenButton = {true}/> 
+                    </div>
+                    <div className="lineunderelement"></div>
                 </div>
                 
                 <div>
                     <h2> Listing Agent </h2>
                     <div className="ppchild">
                         <div className="ppchild">
-                            <p><strong>Karol Barboza</strong></p>
-                            <p>Email: karol@tropical-investments.com</p>
-                            <p>Phone: +506 88337895</p>
-                        </div>                    
+                            <p className="agentinfo"><strong>Karol Barboza</strong></p>
+                            <p className="agentinfo">Email: karol@tropical-investments.com</p>
+                            <p className="agentinfo">Phone: +506 88337895</p>
+                        </div>   
+                        <div className="lineunderelement"></div>                 
                     </div>
                 </div>
                 </div>
