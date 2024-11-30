@@ -72,19 +72,35 @@ const BuenosAiresPage = () => {
         },
     ]
     return ( 
-        <div className = "ppcontainer">
-            <div className="ppchild propertynameandloc">
-                <h1 class="decorated-title">BuenosAires</h1>
-                <p>San Isidro, Costa Rica</p>
+        <html>
+        <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+        </head>
+    <body>
+        <div>
+            <div className="ppchild mrpropertynameandloc bathumbnail" >
+            <h1 class="p-name">Buenos Aires</h1>
+            <p class="p-location">San Isidro, Costa Rica</p>
+            {/* <p>35 Acres</p> */}
             </div>
+        </div>        
+        <div className = "ppcontainer">
             <h2> Photo Gallery </h2>
+            <div className="ppchild">
                 <div className="ppchild">
                     {/* <h3 className="imagechild"> Image Gallery </h3> */}
                     <ImageGallery items={images}
                     showPlayButton = {false}
                     showFullscreenButton = {true}/> 
-                </div>       
+                </div>   
+                <div className="lineunderelement"></div>
+            </div>
+    
         </div>
+        </body>
+        </html>
      );
 }
  
