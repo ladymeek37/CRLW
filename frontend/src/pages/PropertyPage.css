@@ -112,6 +112,14 @@ p{
 
 }
 
+.lothumbnail{
+    margin-top: 4rem;
+    background-image: url(./LaOnda/BestofLaOnda/LOThumbnail.png);
+    margin-bottom: 2rem;   
+}
+
+
+
 /* .ocean-view {
     background-image: url('./MonkeyRanch/NewBestofMonkeyRanch/OceanViewThumbnail.jpg');
 } */

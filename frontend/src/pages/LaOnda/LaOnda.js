@@ -165,72 +165,90 @@ const LaOndaPage = () => {
             <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
             </head>
         <body>
+        <div>
+            <div className="ppchild mrpropertynameandloc lothumbnail" >
+                <h1 class="p-name">La Onda</h1>
+                <p class="p-location">Playa Pavones, Costa Rica</p>
+                    {/* <p>35 Acres</p> */}
+            </div>
+        </div>
         <div className = "ppcontainer">
-
-            <div className="ppchild propertynameandloc">
-                <h1 class="decorated-title">La Onda</h1>
-                <p>Playa Pavones, Costa Rica</p>
-            </div>
-            <h2> Photo Gallery </h2>
-            <div className="ppchild">
-                {/* <h3 className="imagechild"> Image Gallery </h3> */}
-                <ImageGallery items={images}
-                showPlayButton = {false}
-                showFullscreenButton = {true}/> 
-            </div>
             <div>
                 <h2> About La Onda </h2>
                 <div className="ppchild">
                     <div className="ppchild">
-                        <h3>Playa Pavones:</h3>
+                        <p>Playa Pavones:</p>
                         <p>Playa Pavones is home to one of the longest left-hand point breaks in the world. People travel from all over the world to get to surf this legendary wave. With a good swell, you can expect up to a mile long ride on a single wave. This quaint surf town has a few local restaurants featuring typical style meals and other cuisine, a soccerfield, a surfshop, a variety of rental cabinas and houses, and more. This southern area of Costa Rica is known for it's beautiful nature, beaches and wildlife. Scarelt macaws, howler monkeys, toucans, iguanas, wild horses and sloths are easily seen daily in this zone, just to name a few. Pavones is also known for it's year round fishing oppourtunites. This town is a naturally beautiful paradise.   </p>                
                     </div>
                     <div>
-                        <h3 >The Property:</h3>
+                        <p>The Property:</p>
                         <p>The property is 84 acres made up of rolling pasture fields with several ocean view ridgelines. A beautiful river runs through the property, with the river mouth entering the ocean on the south border of the property. The property runs along both sides of the main road into Pavones and is filled with many building sites of different sizes, all overlooking the ocean. You can find exciting hiking trails, swimming holes, wildlife, and beautiful views overlooking Pavones, Matapalo and Playa Zancudo. Along the beach is the La Onda surf break, a fun left-hand point break… one of the many surf spots in the area. La Onda is a one of a kind property with so much to offer!</p>                
-                    </div>                      
+                    </div>
+                    <div className="lineunderelement"></div>                      
                 </div>
             </div> 
+            <h2> Photo Gallery </h2>
+                <div className="ppchild">
+                    <div className="ppchild">
+                        {/* <h3 className="imagechild"> Image Gallery </h3> */}
+                        <ImageGallery items={images}
+                        showPlayButton = {false}
+                        showFullscreenButton = {true}/> 
+                    </div>
+                <div className="lineunderelement"></div>
+            </div>
+
+
             <div>
                 <h2> Location Map </h2>
+                <div className="ppchild">
                     <div className="ppchild">
                         <iframe className= "googlemap" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4121.50373186746!2d-83.10363889999999!3d8.423583299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMjUnMjQuOSJOIDgzwrAwNicxMy4xIlc!5e1!3m2!1sen!2sus!4v1703610672811!5m2!1sen!2sus" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>                 
+                    </div> 
+                    <div className="lineunderelement"></div>
+                </div>
+               
             </div>
-             
+
             {/* <img className = "ppchild" src={La_Onda} width="900" height="700"/> */}
                 <h2> Video Gallery </h2>            
-            <div className = "videocontainer ppchild" >
-
-                <iframe className="vcchild"
-                    src={`https://www.youtube.com/embed/q4qaDL_m-AY`}
-                    frameborder="0" allowFullScreen
-                    width="600" height="350"
-                    >
-                </iframe>
-                <iframe className="vcchild"
-                    src={`https://www.youtube.com/embed/s5iiFgPZ7LY`}
-                    frameborder="0" allowFullScreen
-                    width="600" height="350"
-                    >
-                </iframe>
-                <iframe className="vcchild"
-                    src={`https://www.youtube.com/embed/OWr-YSZ97-E`}
-                    frameborder="0" allowFullScreen
-                    width="600" height="350"
-                    >
-                </iframe>                
+            <div className = " ppchild" >
+                <div className="videocontainer ppchild">
+                    <iframe className="vcchild"
+                        src={`https://www.youtube.com/embed/q4qaDL_m-AY`}
+                        frameborder="0" allowFullScreen
+                        width="600" height="350"
+                        >
+                    </iframe>
+                    <iframe className="vcchild"
+                        src={`https://www.youtube.com/embed/s5iiFgPZ7LY`}
+                        frameborder="0" allowFullScreen
+                        width="600" height="350"
+                        >
+                    </iframe>
+                    <iframe className="vcchild"
+                        src={`https://www.youtube.com/embed/OWr-YSZ97-E`}
+                        frameborder="0" allowFullScreen
+                        width="600" height="350"
+                        >
+                    </iframe> 
+                </div>
+                <div className="lineunderelement"></div>                
             </div>
-             
+
+
  
                 <h2>  Surverys & Maps  </h2>            
             <div className="ppchild">
-                <ImageGallery items={maps}
-                    //   renderLeftNav={(onClick, disabled) => <CustomLeftNavButton onClick={onClick} />}
-                    //   renderRightNav={(onClick, disabled) => <CustomRightNavButton onClick={onClick} />}
-                showPlayButton = {false}
-                showFullscreenButton = {true}
-                style={{ width: '200px', height: 'auto' }}/> 
+                <div className="ppchild">
+                    <ImageGallery items={maps}
+                        //   renderLeftNav={(onClick, disabled) => <CustomLeftNavButton onClick={onClick} />}
+                        //   renderRightNav={(onClick, disabled) => <CustomRightNavButton onClick={onClick} />}
+                    showPlayButton = {false}
+                    showFullscreenButton = {true}
+                    style={{ width: '200px', height: 'auto' }}/> 
+                </div>
+                <div className="lineunderelement"></div>
             </div>
             </div>
         </body>
