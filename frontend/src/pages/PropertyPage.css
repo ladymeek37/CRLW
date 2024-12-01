@@ -124,6 +124,12 @@ p{
     margin-bottom: 2rem;  
 }
 
+.rhthumbnail{
+
+    background-image: url(./RockHouse/RockHouseImages/RHThumbnail.png);
+    margin-bottom: 2rem;    
+}
+
 
 
 /* .ocean-view {
