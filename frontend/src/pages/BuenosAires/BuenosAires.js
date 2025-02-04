@@ -18,6 +18,9 @@ import RiverCharBA from "./BestofBuenosAires/RiverCharBA.JPG"
 import WaterBuffalo3BA from "./BestofBuenosAires/WaterBuffalo3BA.JPG"
 
 
+//Survey Imports
+import BuenosAiresPlano from "./PropertyMaps/BuenosAiresFarmPlano.jpg"
+
 
 const BuenosAiresPage = () => {
 
@@ -71,6 +74,14 @@ const BuenosAiresPage = () => {
             thumbnail: WaterBuffalo3BA,
         },
     ]
+
+    const maps = [
+        {
+            original: BuenosAiresPlano,
+            thumbnail: BuenosAiresPlano, 
+        },
+    ]
+
     return ( 
         <html>
         <head>
@@ -97,6 +108,27 @@ const BuenosAiresPage = () => {
                 </div>   
                 <div className="lineunderelement"></div>
             </div>
+
+            <h2> Location Map </h2>
+                <div className="ppchild">
+                    <div className="ppchild">
+                    <iframe className= "googlemap" src="https://www.google.com/maps/d/embed?mid=1P01IZuTouSlrQxrZtw8hLHXGidWNRUo&ehbc=2E312F&noprof=1"></iframe>
+                    </div>
+                    <div className="lineunderelement"></div>
+                </div>
+
+            <div className="ppchild">
+                <h2>  Surverys & Maps  </h2>            
+                <div className="ppchild">
+                    <ImageGallery items={maps}
+                    showPlayButton = {false}
+                    showFullscreenButton = {true}
+                    style={{ width: '200px', height: 'auto' }}/> 
+                </div>
+                <div className="lineunderelement"></div> 
+            </div>
+
+                
     
         </div>
         </body>

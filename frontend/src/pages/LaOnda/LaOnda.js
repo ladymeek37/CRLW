@@ -250,6 +250,7 @@ const LaOndaPage = () => {
                 </div>
                 <div className="lineunderelement"></div>
             </div>
+
             </div>
         </body>
         </html>

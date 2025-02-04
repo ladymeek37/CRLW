@@ -48,7 +48,8 @@ const DomiFarmPage = () => {
 
 
 
-            <h2>  Surverys & Maps  </h2>            
+            <h2>  Surverys & Maps  </h2>
+            <div className="ppchild">            
                 <div className="ppchild">
                     <ImageGallery items={maps}
                         //   renderLeftNav={(onClick, disabled) => <CustomLeftNavButton onClick={onClick} />}
@@ -57,6 +58,10 @@ const DomiFarmPage = () => {
                     showFullscreenButton = {true}
                     style={{ width: '200px', height: 'auto' }}/> 
                 </div>
+                <div className="lineunderelement"></div> 
+            </div>
+
+
             {/* <img className = "ppchild" src={Domi_Farm} width="900" height="700"/>  */}
             {/* <p className = "ppchild">Here's some example text about this property in Costa Rica. Here's some example text about this property in Costa Rica. Here's some example text about this property in Costa Rica. Here's some example text about this property in Costa Rica. Here's some example text about this property in Costa Rica. Here's some example text about this property in Costa Rica. Here's some example text about this property in Costa Rica. Here's some example text about this property in Costa Rica.</p>            */}
         </div>

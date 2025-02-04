@@ -64,6 +64,8 @@ and (-webkit-device-pixel-ratio: 3) {
   flex-direction: column;
   justify-content: flex-end;
   gap: 1rem;
+  margin-bottom: 10rem;
+  margin-top: 5rem;
 }
 
 .form input {

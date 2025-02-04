@@ -14,8 +14,13 @@ and (max-device-width: 420px) {
         padding: 1.5rem !important;
         margin: 2rem !important;
     }
+    .lineunderelement{
+        padding: 0;
+        margin: 0;
+    }
 
 }
+
 
 .body{
     font-family: 'IBM Plex Sans', sans-serif;
@@ -80,4 +85,11 @@ and (max-device-width: 420px) {
     background-color: #f7f7f7; /* Set the navbar background color for this page only */
 }
 
+
+.lineunderelement{
+    border-bottom: 1px solid #000;
+    padding-bottom: 3rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
 
