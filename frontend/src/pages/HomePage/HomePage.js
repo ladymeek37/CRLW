@@ -109,17 +109,17 @@ return (
             </Link>
             </div>
     {/* San Vito */}
-            {/* <div className = "hpchild" > 
+            <div className = "hpchild" > 
             <Link to ='/sanvito' style = {{ color: 'black', textDecoration: 'none' }}>
               <div >
                 <img className = "thumbnailimage" src={SVThumbnail} alt={"San Vito Thumbnail"} />
                 <div className="titlecontainer">
-                  <p className = "hptitle titlechild">BUENOS AIRES</p>
+                  <p className = "hptitle titlechild">SAN VITO FARM</p>
                   {/* <p className = "hplocation titlechild">San Isidro, Costa Rica</p>                   */}
-                {/* </div>
+                </div>
               </div>
             </Link>
-            </div>      */}
+            </div>     
     {/* Hermosa Lot */}
             <div className = "hpchild" > 
             <Link to ='/hermosalot' style = {{ color: 'black', textDecoration: 'none' }}>
