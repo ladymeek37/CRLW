@@ -130,6 +130,11 @@ p{
     margin-bottom: 2rem;    
 }
 
+.svthumbnail{
+    background-image: url(./SanVito/SanVitoImages/SanVitoThumbnail2.png);
+    margin-bottom: 2rem;
+}
+
 
 
 /* .ocean-view {

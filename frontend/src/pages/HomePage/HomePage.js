@@ -9,6 +9,7 @@ import "./HomePage.css"
 import MonkeyRanchThumbnail from "./HomePageAssets/MonkeyRanchThumbnail.jpg"
 import LaOndaThumbnail from "./HomePageAssets/LaOndaThumbnail.jpg"
 import BuenosAiresThumbnail from "./HomePageAssets/BuenosAiresThumbnail.JPG"
+import SVThumbnail from "./HomePageAssets/SVThumbnail.JPG"
 import HermosaLotThumbnail from "./HomePageAssets/HermosaLotThumbnail.jpg"
 import RockHouseThumbnail from "./HomePageAssets/RockHouseThumbnail.jpg"
 import DomiFarmThumbnail from "./HomePageAssets/DomiFarmThumbnail.jpeg"
@@ -87,9 +88,9 @@ return (
             <div className = "hpchild" > 
             <Link to ='/laonda' style = {{ color: 'black', textDecoration: 'none' }}>
               <div >
-                <img className = "thumbnailimage" src={LaOndaThumbnail} alt={"La Onda Thumbnail"} />
+                <img className = "thumbnailimage" src={LaOndaThumbnail} alt={"San Vito Thumbnail"} />
                 <div className="titlecontainer">
-                  <p className = "hptitle titlechild">LA ONDA</p>
+                  <p className = "hptitle titlechild">SAN VITO FARM</p>
                   {/* <p className = "hplocation titlechild">Playa Pavones, Costa Rica</p>                   */}
                 </div>
               </div>
@@ -106,7 +107,19 @@ return (
                 </div>
               </div>
             </Link>
-            </div>   
+            </div>
+    {/* San Vito */}
+            {/* <div className = "hpchild" > 
+            <Link to ='/sanvito' style = {{ color: 'black', textDecoration: 'none' }}>
+              <div >
+                <img className = "thumbnailimage" src={SVThumbnail} alt={"San Vito Thumbnail"} />
+                <div className="titlecontainer">
+                  <p className = "hptitle titlechild">BUENOS AIRES</p>
+                  {/* <p className = "hplocation titlechild">San Isidro, Costa Rica</p>                   */}
+                {/* </div>
+              </div>
+            </Link>
+            </div>      */}
     {/* Hermosa Lot */}
             <div className = "hpchild" > 
             <Link to ='/hermosalot' style = {{ color: 'black', textDecoration: 'none' }}>

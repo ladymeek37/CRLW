@@ -12,6 +12,7 @@ import DomiFarmPage from "./pages/DomiFarm/DomiFarm";
 import HermosaLotPage from "./pages/HermosaLot/Hermosa_Lot";
 import RockHousePage from "./pages/RockHouse/RockHouse";
 import MonkeyRanchPage from "./pages/MonkeyRanch/Monkey_Ranch";
+import SanVitoPage from "./pages/SanVito/SanVito";
 
 
 
@@ -45,6 +46,7 @@ function App() {
         <Route path="/rockhouse" element={<RockHousePage/>} />
         <Route path="/monkeyranch" element={<MonkeyRanchPage/>} />        
         <Route path="/laonda" element={<LaOndaPage/>} />
+        <Route path="/sanvito" element={<SanVitoPage/>} /> 
       </Routes>
       <Footer />
     </div>
