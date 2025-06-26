@@ -13,6 +13,7 @@ import SVThumbnail from "./HomePageAssets/SVThumbnail.JPG"
 import HermosaLotThumbnail from "./HomePageAssets/HermosaLotThumbnail.jpg"
 import RockHouseThumbnail from "./HomePageAssets/RockHouseThumbnail.jpg"
 import DomiFarmThumbnail from "./HomePageAssets/DomiFarmThumbnail.jpeg"
+import FincaTranquilloThumbnail from "./HomePageAssets/FincaTranquilloThumbnail.jpg"
 
 const HomePage = () => {
   // The "user" value from this Hook contains the decoded logged in user information (username, first name, id)
@@ -158,6 +159,19 @@ return (
             </div>
                   
     </div>
+        {/* Finca Tranqillo */}
+        <div className = "hpchild" > 
+            <Link to ='/domifarm' style = {{ color: 'black', textDecoration: 'none' }}>
+              <div >
+                <img className = "thumbnailimage" src={FincaTranquilloThumbnail} alt={"Finca Tranquillo Thumbnail"} />
+                <div className="titlecontainer">
+                  <p className = "hptitle titlechild">FINCA TRANQUILLO</p>
+                  {/* <p className = "hplocation titlechild">Pavones, Costa Rica</p>                   */}
+                </div>
+              </div>
+            </Link>
+            </div>
+                  
   
 
   </body>
