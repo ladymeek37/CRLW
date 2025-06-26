@@ -157,11 +157,9 @@ return (
               </div>
             </Link>
             </div>
-                  
-    </div>
         {/* Finca Tranqillo */}
         <div className = "hpchild" > 
-            <Link to ='/domifarm' style = {{ color: 'black', textDecoration: 'none' }}>
+            <Link to ='/fincatranquillo' style = {{ color: 'black', textDecoration: 'none' }}>
               <div >
                 <img className = "thumbnailimage" src={FincaTranquilloThumbnail} alt={"Finca Tranquillo Thumbnail"} />
                 <div className="titlecontainer">
@@ -170,7 +168,9 @@ return (
                 </div>
               </div>
             </Link>
-            </div>
+        </div>
+                  
+    </div>
                   
   
 
