@@ -47,7 +47,7 @@ function App() {
         <Route path="/monkeyranch" element={<MonkeyRanchPage/>} />        
         <Route path="/laonda" element={<LaOndaPage/>} />
         <Route path="/sanvito" element={<SanVitoPage/>} /> 
-        <Route path="/fincatranquillo" element={<FincaTranquilloPage/>} />
+        <Route path="/fincatranquilla" element={<FincaTranquilloPage/>} />
           </Routes>
       <Footer />
     </div>

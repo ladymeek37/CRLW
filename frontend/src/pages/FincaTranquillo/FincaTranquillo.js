@@ -157,14 +157,14 @@ const FincaTranquilloPage = () => {
         <body>
         <div>
             <div className="ppchild mrpropertynameandloc ftthumbnail" >
-                <h1 class="p-name">Finca Tranquillo</h1>
+                <h1 class="p-name">Finca Tranquilla</h1>
                 <p class="p-location">Playa Pavones, Costa Rica</p>
                     {/* <p>35 Acres</p> */}
             </div>
         </div>
         <div className = "ppcontainer">
             <div>
-                <h2> About Finca Tranquillo </h2>
+                <h2> About Finca Tranquilla </h2>
                 <div className="ppchild">
                     <div className="ppchild">
                         <p>76hectars, 190 acres</p>

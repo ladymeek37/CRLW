@@ -163,7 +163,7 @@ return (
               <div >
                 <img className = "thumbnailimage" src={FincaTranquilloThumbnail} alt={"Finca Tranquillo Thumbnail"} />
                 <div className="titlecontainer">
-                  <p className = "hptitle titlechild">FINCA TRANQUILLO</p>
+                  <p className = "hptitle titlechild">FINCA TRANQUILLA</p>
                   {/* <p className = "hplocation titlechild">Pavones, Costa Rica</p>                   */}
                 </div>
               </div>
