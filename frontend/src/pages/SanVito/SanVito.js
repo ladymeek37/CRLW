@@ -281,7 +281,7 @@ const SanVitoPage = () => {
             <h2> Location Map </h2>
                 <div className="ppchild">
                     <div className="ppchild">
-                        <iframe className= "googlemap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30719.591629231316!2d-82.963514!3d8.821593!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa4343623a7de4f%3A0x513672b25f2150bf!2sProvincia%20de%20Puntarenas%2C%20San%20Vito!5e1!3m2!1ses!2scr!4v1740258290717!5m2!1ses!2scr"></iframe>
+                        <iframe className= "googlemap" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4243.781217115677!2d-83.01782492469503!3d8.970255289905134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwNTgnMTIuOSJOIDgzwrAwMCc1NC45Ilc!5e1!3m2!1sen!2sus!4v1768257951474!5m2!1sen!2sus"></iframe>
                     </div>
                     <div className="lineunderelement"></div> 
                 </div>
