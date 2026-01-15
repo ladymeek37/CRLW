@@ -4,14 +4,24 @@ import ImageGallery from "react-image-gallery"
 import "react-image-gallery/styles/css/image-gallery.css"
 
 //survey import
-import DomiFarmSurvey from "./DomiFarmMaps/DomiFarmSurvey.png"
+import domifarmplano1 from "./DomiFarmMaps/domifarmplano1.jpg"
+import domifarmplano2 from "./DomiFarmMaps/domifarmplano2.jpg"
+import domifarmplano3 from "./DomiFarmMaps/domifarmplano3.jpg"
 
 const DomiFarmPage = () => {
 
     const maps = [
         {
-            original: DomiFarmSurvey,
-            thumbnail: DomiFarmSurvey,
+            original: domifarmplano1,
+            thumbnail: domifarmplano1,
+        },
+        {
+            original: domifarmplano2,
+            thumbnail: domifarmplano2,
+        },
+        {
+            original: domifarmplano3,
+            thumbnail: domifarmplano3,
         }
     ]
 
