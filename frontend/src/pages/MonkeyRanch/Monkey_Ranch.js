@@ -428,18 +428,45 @@ const MonkeyRanchPage = () => {
                 </div>
 
             <div className = "ppcontainer">
-                    <h2> About </h2>
+                    <h2> About The Monkey Ranch</h2>
                     <div className="ppchild">
                         <div className="ppchild">
                             {/* <h3>Playa Pavones:</h3> */}
-                            <p>Perched in the prestigious Escaleras neighborhood, high above the serene Dominicalito Bay, The Monkey Ranch presents a truly rare offering: a breathtaking 35-acre estate blending untouched natural splendor with refined luxury. Enveloped by pristine jungle, the property showcases stunning ocean views, peaceful creeks, and an awe-inspiring 40-foot waterfall that flows into private swimming holes, all creating a tranquil escape. At an elevation of 1,100 feet, the property enjoys cooling ocean breezes and a perfect year-round climate—setting the stage for an opulent Costa Rican lifestyle.</p>                             
+                            <p>Perched in the prestigious Escaleras neighborhood, high above the calm waters of Dominicalito Bay, The Monkey Ranch is a rare 75-acre estate where untouched jungle meets refined living. Assembled from four separate surveys, the first purchase was made in 2012, and the owner has spent fourteen years creating this combination of trails, water system, and improvements. The property opens onto sweeping ocean views, quiet creeks, and two waterfalls — a 90-foot cascade and a 25-foot fall, each feeding private swimming holes. Every drop of water that flows over both waterfalls is born from springs on the interior of the property itself. Nothing is piped in, nothing is borrowed. The land is its own watershed.</p>                             
                             <br/>
                             <br/>
-                            <p>This estate features two expansive luxury residences with a total of 12 bedrooms, along with a dedicated caretaker’s house. The Monkey Ranch grounds boast an extraordinary landscape, inviting guests to enjoy natural pools, a spring-fed tilapia pond, and lush jungle trails. The estate is home to abundant fruit trees and gardens, offering a bounty of tropical favorites such as banana, papaya, coconut, starfruit, pineapple, orange, and grapefruit. </p>
+                            <br/>
+                            <h3>WATER</h3>
+                            <br/>
+                            <p>Beyond the waterfalls, the estate runs on a gravity-fed water system built around a spring box on one of the major interior springs. Water flows by gravity alone into every improvement — no pumps, no electricity, no energy input. It’s filtered and held in large tanks before reaching the homes, so water pressure stays strong even in the unlikely event of a power interruption. The water is spring-fed, chlorine-free, with a natural pH of about 9.5 — a mineral-rich supply that’s as healthy as it is reliable. </p>
                             <br/>
                             <br/>
-                            <p>Completed in 2016, the primary residence spans over 8,000 square feet of exquisite design, with 5 bedrooms including three master suites. A vast infinity pool wraps around 80% of the home, inviting residents to relax amidst breathtaking ocean vistas. Crafted with durable, rainforest-friendly materials, the home’s interior features soaring 30-foot cathedral ceilings, teak decks, and hand-carved wooden accents that celebrate Costa Rican wildlife. The open-concept layout seamlessly connects indoor and outdoor living, with expansive teak decks, covered lounge areas, a grill station, pool bar, and a yoga platform with sweeping Pacific views.</p>
                             <br/>
+                            <h3>A MORNING AT THE RANCH</h3>
+                            <br/>
+                            <p>Mornings begin with coffee and a fifteen-minute hike down to the waterfalls for a swim, then a twenty-five-minute climb back up to the improvements. On the way, you might pluck a pipa from a coconut tree, or grab a starfruit, grapefruit, or one of the many banana varieties growing along the trail.</p>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <h3>THE RESIDENCIES </h3>
+                            <br/>
+                            <p>Two residences share the grounds. The Monkey Ranch house, completed in 2016, spans more than 8,000 square feet with six bedrooms, three of them master suites. An infinity pool wraps around roughly 80 percent of the home, placing the Pacific almost at the water’s edge. Rainforest-conscious materials, 30-foot cathedral ceilings, teak decks, and hand-carved details that honor Costa Rican wildlife give the interiors both durability and character. Indoor and outdoor living flow together across teak decks, covered lounges, a grill站, pool bar, and a yoga platform with wide Pacific views.</p>
+                            <br/>
+                            <br/>
+                            <p>The Jungle Inn is the original jungle house, built about twenty-five years ago with hardwood floors, and framed by two spring-fed creeks that wrap two sides of the property. It offers eight bedrooms. Together the two residences provide fourteen bedrooms among fruit trees and gardens — banana, papaya, coconut, starfruit, pineapple, orange, and grapefruit — with ocean views, breezes at 1,100 feet, and a climate that stays easy year-round.</p>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <h3>HOW THE JUNGLE HOUSE WAS BUILT</h3>
+                            <br/>
+                            <p>The Monkey Ranch house was built largely from timber harvested on the property under Costa Rican rainforest permits. Doors, ceilings, and cabinets were all crafted from that same timber, cut in an environmentally considerate way — thinning the forest so the remaining trees receive more sunlight and grow stronger. The result is a home that grew from the land it stands on.</p>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <h3>INVESTMENT POTENTIAL</h3>
+                            <br/>
+                            <p>As an investment, The Monkey Ranch offers multiple paths to value. The estate works as a corporate retreat, a wedding venue, or a private family reunion center — spaces that generate income while the land appreciates. Beyond the existing residences, the residences, the property holds several ocean-view building sites that could accommodate four to eight additional homes, depending on the density you choose. The plan tells have not yet been cut, but you could cut up to eight more.</p>
+
                         </div>
                         <div className="lineunderelement"></div>                    
                     </div>
